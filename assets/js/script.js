@@ -1548,5 +1548,30 @@ function isScrollView(t) {
             });
             $('.list-full-screen li').css("height", $('.list-full-screen ').height() - 10);
         });
+
+
+
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            speed: 1500,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 500,
+                modifier: 1,
+                slideShadows: false,
+            },
+            autoplay: {
+                delay:  5000,
+                disableOnInteraction: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + '</span>';
+                },
+            },
+        });
     });
 }(jQuery));
