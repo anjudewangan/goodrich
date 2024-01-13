@@ -7434,7 +7434,8 @@ html.iex .img-box img {
     overflow: hidden;
 }
 
-.swiper-slide video, .swiper-slide img {
+.swiper-slide video,
+.swiper-slide img {
     width: 100%;
 }
 
@@ -7652,6 +7653,11 @@ html.iex .img-box img {
 .btn.button {
     position: relative;
 }
-.footer-logo{
+
+.footer-logo {
     width: 200px;
+}
+
+.logo-item a img {
+    width: 100px;
 }

@@ -696,12 +696,12 @@ body .block-quote.quote-1:before, body .block-quote.quote-2:after, body .block-q
 }
 
 .footer-parallax {
-    height: 530px;
+    height: 600px;
     border-top: none;
 }
 
 .footer-parallax-container {
-    margin-bottom: 530px;
+    margin-bottom: 600px;
 }
 
 .footer-parallax .container {
@@ -1607,7 +1607,7 @@ header .btn-default:hover, header .btn:hover, header .anima-button.circle-button
 }
 
 header .nav > li > a {
-    padding: 35px 18px 36px 18px;
+    /* padding: 35px 18px 36px 18px; */
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 13px;
