@@ -331,7 +331,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flexslider.nav-inner .flex-control-nav {
-    bottom: -45px;
+    bottom: 10px;
 }
 
 .flexslider.nav-inner {
