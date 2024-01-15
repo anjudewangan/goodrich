@@ -2857,6 +2857,7 @@ Blog Area CSS
     padding: 30px 20px;
     position: relative;
     z-index: 1;
+    height: 22rem;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     border-radius: 0 0 5px 5px;
@@ -2868,6 +2869,7 @@ Blog Area CSS
     -webkit-transition: 0.5s;
     transition: 0.5s;
     line-height: 1.2;
+    height: 14rem;
 }
 
 .single-blog-item .content h3 a {
