@@ -7662,6 +7662,189 @@ html.iex .img-box img {
     width: 200px;
 }
 
+
 .logo-item a img {
-    width: 100px;
+    width: 115px;
+}
+
+.video-area {
+    text-align: center;
+    background-image: url(https://templates.envytheme.com/orgo/default/assets/img/video-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.video-area::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+}
+
+.video-content h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    margin-top: -5px;
+    text-transform: inherit;
+    font-weight: 800;
+}
+
+.video-content .video-btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #f35320;
+    position: relative;
+    z-index: 1;
+}
+
+.video-content .video-btn::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: ripple 2s linear infinite;
+    animation: ripple 2s linear infinite;
+}
+
+.video-content .video-btn i {
+    font-size: 45px;
+    position: relative;
+    top: 5px;
+}
+
+.video-content .video-btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    -webkit-animation: ripple 2s linear 1s infinite;
+    animation: ripple 2s linear 1s infinite;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.video-content .video-btn:hover {
+    background-color: #f35320;
+    color: #ffffff;
+}
+
+
+@-webkit-keyframes ripple {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.75);
+        transform: scale(1.75);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+@keyframes ripple {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    75% {
+        -webkit-transform: scale(1.75);
+        transform: scale(1.75);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.div-shadow img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.div-shadow p,
+.div-shadow h2 {
+    margin: 10px 0;
+}
+
+.process-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.process-step-circle {
+    border: 2px solid #d4d4d4;
+    font-size: 2.2em;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-shadow:hover .process-step-circle {
+    background-color: #0a6938;
+    color: #fff;
+}
+
+.process-step:before {
+    content: '';
+    height: 2px;
+    background-color: #ededed;
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: 75%;
+}
+
+.process-step:last-child::before {
+    display: none;
+    visibility: hidden;
+}
+
+.footer-right h5{
+    color: #fff;
 }
