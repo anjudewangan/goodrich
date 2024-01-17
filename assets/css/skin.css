@@ -1047,12 +1047,12 @@ body .block-quote.quote-2:before {
 }
 
 .footer-parallax {
-    height: 600px;
+    height: 525px;
     border-top: none;
 }
 
 .footer-parallax-container {
-    margin-bottom: 600px;
+    margin-bottom: 525px;
 }
 
 .footer-parallax .container {
@@ -3811,4 +3811,15 @@ MOBILE - RESPONSIVE
         text-align: center;
         font-size: 22px;
     }
+}
+
+.swiper-slide h2,
+.swiper-slide p,
+.swiper-slide h5,
+.swiper-slide .btn {
+    color: #fff !important;
+}
+
+.slider-text {
+    text-align: left;
 }
