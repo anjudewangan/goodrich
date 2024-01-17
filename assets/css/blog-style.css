@@ -2874,6 +2874,7 @@ Blog Area CSS
 
 .single-blog-item .content h3 a {
     color: #111111;
+    font-weight: 500;
 }
 
 .single-blog-item .content .blog-btn {

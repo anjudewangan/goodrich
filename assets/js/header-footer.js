@@ -25,7 +25,7 @@ document.getElementById("section-header").innerHTML = `   <div
               <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                   <li class="dropdown active">
-                    <a href="index.html"
+                    <a href="the-goodrich-legacy.html"
                       >Our Story <span class="caret"></span
                     ></a>
                     <div class="mega-menu dropdown-menu multi-level row">
