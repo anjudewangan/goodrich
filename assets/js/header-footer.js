@@ -110,7 +110,6 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </div>
-              <p><a href="./careers.html">Carrers</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">USEFUL LINKS</h5>
@@ -120,6 +119,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
               <p><a href="#">Potato Flour</a></p>
               <p><a href="#">Potato Granules</a></p>
               <p><a href="#">Potato Air-dried Pieces</a></p>
+              <p><a href="./careers.html">Carrers</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>
@@ -184,7 +184,8 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
           </div>
         </div>
         <div class="row copy-row">
-          <div class="col-md-6 text-center">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
             © 2024 -
             <a href="https://www.patiodigital.com/" target="_blank"
               >Patio Digital Pvt. Ltd.</a
