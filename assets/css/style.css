@@ -1977,6 +1977,10 @@ footer.footer-center .content {
     height: 270px;
     padding-top: 20px;
     opacity: 0;
+    background-image: url(../images/dashboard/Footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .footer-parallax .container {
