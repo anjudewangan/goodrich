@@ -25,7 +25,7 @@ document.getElementById("section-header").innerHTML = `   <div
               <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                   <li class="dropdown active">
-                    <a href="the-goodrich-legacy.html"
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"
                       >Our Story <span class="caret"></span
                     ></a>
                     <div class="mega-menu dropdown-menu multi-level row">
@@ -51,22 +51,38 @@ document.getElementById("section-header").innerHTML = `   <div
                     </div>
                   </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-                      >Dehydrated Potato Products <span class="caret"></span
-                    ></a>
-                  </li>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="dehydrated-potato-products.html">Dehydrated Potato Products <span
+                      class="caret"></span></a>
+                  <div class="mega-menu dropdown-menu multi-level row">
+                    <div class="col">
+                      <ul class="fa-ul no-icons text-s">
+                        <li>
+                          <a href="potato-flakes.html">Potato Flakes</a>
+                        </li>
+                        <li>
+                          <a href="potato-flours.html">Potato Flours</a>
+                        </li>
+                        <li>
+                          <a href="potato-granules.html">Potato Granules</a>
+                        </li>
+                        <li>
+                          <a href="air-dried-potato-pieces.html">Air-Dried Potato Pieces</a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
                   <li class="dropdown">
-                    <a href="./latest-blogs.html" role="button"
+                    <a href="latest-blogs.html" role="button"
                       >Blogs <span class="caret"></span
                     ></a>
                   </li>
                   <li class="logo-item">
-                    <a href="./index.html">
+                    <a href="index.html">
                       <img src="./assets/images/logos/logo.png" alt="logo" />
                     </a>
                   </li>
                   <li class="dropdown">
-                    <a href="#" role="button"
+                    <a href="media.html" role="button"
                       >Media <span class="caret"></span
                     ></a>
                   </li>
@@ -114,12 +130,12 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">USEFUL LINKS</h5>
               <hr class="space s" />
-              <p><a href="#">Dehydrated Potato Products</a></p>
-              <p><a href="#">Potato Flakes</a></p>
-              <p><a href="#">Potato Flour</a></p>
-              <p><a href="#">Potato Granules</a></p>
-              <p><a href="#">Potato Air-dried Pieces</a></p>
-              <p><a href="./careers.html">Carrers</a></p>
+              <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
+              <p><a href="potato-flakes.html">Potato Flakes</a></p>
+              <p><a href="potato-flours.html">Potato Flour</a></p>
+              <p><a href="potato-granules.html">Potato Granules</a></p>
+              <p><a href="air-dried-potato-pieces.html">Potato Air-dried Pieces</a></p>
+              <p><a href="careers.html">Carrers</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>
