@@ -3097,7 +3097,7 @@ header.bg-title .breadcrumb.b {
 
 .videobox {
     position: absolute;
-    height: 350px;
+    height: 100%;
     overflow: hidden;
     width: 100%;
     z-index: 1;
