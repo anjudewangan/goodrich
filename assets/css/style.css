@@ -3097,7 +3097,7 @@ header.bg-title .breadcrumb.b {
 
 .videobox {
     position: absolute;
-    height: 350px;
+    height: 100%;
     overflow: hidden;
     width: 100%;
     z-index: 1;
@@ -7845,11 +7845,11 @@ html.iex .img-box img {
     visibility: hidden;
 }
 
-.footer-right h5{
+.footer-right h5 {
     color: #fff;
 }
 
-footer hr{
+footer hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
