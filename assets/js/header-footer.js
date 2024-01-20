@@ -1,4 +1,4 @@
-document.getElementById("section-header").innerHTML = `   <div
+document.getElementById("section-header").innerHTML = `<div
           class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top"
           role="navigation">
           <div class="navbar navbar-main navbar-middle">
@@ -102,7 +102,7 @@ document.getElementById("section-header").innerHTML = `   <div
           </div>
         </div>`;
 
-document.getElementById("section-footer").innerHTML = `    <div class="content">
+document.getElementById("section-footer").innerHTML = `<div class="content">
         <div class="container">
           <div class="row">
             <div class="col-md-3 footer-left">
@@ -221,5 +221,4 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
             </div>
           </div>
         </div>
-      </div>
-`;
+      </div>`;
