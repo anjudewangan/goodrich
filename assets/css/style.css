@@ -4098,7 +4098,7 @@ IMAGE BOX
     top: 0;
     left: 0;
     bottom: 0;
-    background: #000000;
+    /* background: #000000; */
     z-index: 0;
     transition: opacity 0s;
     -webkit-transition-delay: .3s;
