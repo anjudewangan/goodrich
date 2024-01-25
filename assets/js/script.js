@@ -2095,10 +2095,10 @@ function isScrollView(t) {
         stretch: 0,
         depth: 500,
         modifier: 1,
-        slideShadows: false,
+        slideShadows: true,
       },
       autoplay: {
-        delay: 5000,
+        delay: 11000,
         disableOnInteraction: true,
       },
       pagination: {
