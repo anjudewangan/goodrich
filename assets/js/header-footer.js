@@ -135,7 +135,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><a href="potato-flours.html">Potato Flour</a></p>
               <p><a href="potato-granules.html">Potato Granules</a></p>
               <p><a href="air-dried-potato-pieces.html">Potato Air-dried Pieces</a></p>
-              <p><a href="careers.html">Carrers</a></p>
+              <p><a href="careers.html">Careers</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>
