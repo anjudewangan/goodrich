@@ -7408,6 +7408,15 @@ MOBILE - EXTRA SMALL SCREENS
         padding-left: 0;
         display: block;
     }
+
+    /* Responsive */
+    .process-step:before {
+        display: none;
+    }
+
+    .swiper-container {
+        height: 100% !important;
+    }
 }
 
 /*

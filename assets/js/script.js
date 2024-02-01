@@ -35,7 +35,7 @@ function initAnima(obj) {
     var len = $(an).length;
     var default_anima = $.fn.getGlobalVar("default_anima");
     if (da == "default" && !isEmpty(default_anima)) da = default_anima;
-    if (isEmpty(tmt)) tmt = 500;
+    if (isEmpty(tmt)) tmt = 200;
     if (isEmpty(an)) an = obj;
     $(an).each(function (i) {
       if (!isEmpty($(this).attr("data-anima")) && i === 0) {
