@@ -7417,7 +7417,18 @@ MOBILE - EXTRA SMALL SCREENS
     .swiper-container {
         height: 100% !important;
     }
+    .btn1{
+        margin-top: 1rem ;
+    }
+    .btn2{
+        margin-top: 1rem ;
+    }
+    .btn3{
+        margin-top: 1rem ;
+    }
 }
+/* Get in touch button */
+
 
 /*
 ==============================
