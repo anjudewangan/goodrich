@@ -1429,9 +1429,9 @@
   counters.forEach((counter1) => {
     let initial_count = 0;
     const final_count = counter1.dataset.count;
-    // console.log(final_count);
+    const intervalDuration = 30; // Set your desired interval duration (in milliseconds)
 
-    let counting = setInterval(updateCounting, 1);
+    let counting = setInterval(updateCounting, intervalDuration);
 
     function updateCounting() {
       if (initial_count <= 1000) {

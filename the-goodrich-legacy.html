@@ -1114,7 +1114,7 @@
     })(jQuery);
   </script>
 
-  <script>
+  <!-- <script>
     const counters = document.querySelectorAll(".counter1");
 
     counters.forEach((counter1) => {
@@ -1150,5 +1150,43 @@
         }
       }
     });
+  </script> -->
+  <script>
+    const counters = document.querySelectorAll(".counter1");
+  
+    counters.forEach((counter1) => {
+      let initial_count = 0;
+      const final_count = counter1.dataset.count;
+      const intervalDuration = 30; // Set your desired interval duration (in milliseconds)
+  
+      let counting = setInterval(updateCounting, intervalDuration);
+  
+      function updateCounting() {
+        if (initial_count <= 1000) {
+          initial_count += 5;
+  
+          counter1.innerText = initial_count;
+        }
+  
+        if (initial_count >= 1000) {
+          initial_count += 100;
+          counter1.innerText = (initial_count / 1000).toFixed(1) + "K+";
+        }
+  
+        if (initial_count >= 10000) {
+          initial_count += 5000;
+        }
+  
+        if (initial_count >= 1000000) {
+          initial_count += 500000;
+          counter1.innerText = (initial_count / 1000000).toFixed(1) + "M+";
+        }
+  
+        if (initial_count >= final_count) {
+          clearInterval(counting);
+        }
+      }
+    });
   </script>
+  
 </html>
