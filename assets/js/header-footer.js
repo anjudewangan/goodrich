@@ -111,7 +111,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
                 alt=""
                 class="footer-logo" />
               <hr class="space s" />
-              <p>Bulk Supplies of All Dehydrated Potato Products</p>
+              <p>bulk supplies of all dehydrated potato products</p>
               <div class="btn-group social-group btn-group-icons">
                 <a target="_blank" href="#" data-social="share-facebook"
                   ><i class="fa fa-facebook"></i
@@ -135,7 +135,6 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><a href="potato-flours.html">Potato Flour</a></p>
               <p><a href="potato-granules.html">Potato Granules</a></p>
               <p><a href="air-dried-potato-pieces.html">Potato Air-dried Pieces</a></p>
-              <p><a href="careers.html">Careers</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>
@@ -194,7 +193,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               </p>
               <hr />
               <p>
-                <i class="fa fa-map-marker" aria-hidden="true"></i> AHEMDABAD
+                <i class="fa fa-map-marker" aria-hidden="true"></i> AHMEDABAD
               </p>
             </div>
           </div>
@@ -208,17 +207,20 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
             >
           </div>
           <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
-                <p><a href="#">Terms & Condition</a></p>
-              </div>
-              <div class="col-md-4">
-                <p><a href="#">Privacy Policy</a></p>
-              </div>
-              <div class="col-md-4">
-                <p><a href="#">Site Map</a></p>
-              </div>
+          <div class="row">
+            <div class="col-md-2">
+              <p><a href="careers.html">Careers</a></p>
+            </div>
+            <div class="col-md-4">
+              <p><a href="#">Terms & Condition</a></p>
+            </div>
+            <div class="col-md-3">
+              <p><a href="#">Privacy Policy</a></p>
+            </div>
+            <div class="col-md-3">
+              <p><a href="#">Site Map</a></p>
             </div>
           </div>
+        </div>
         </div>
       </div>`;
