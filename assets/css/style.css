@@ -5483,6 +5483,7 @@ SECTIONS
         padding-left: 40px !important;
         padding-right: 25px !important;
     }
+    
 }
 
 .section-two-blocks.blocks-right .vertical-row {
@@ -7927,4 +7928,17 @@ footer hr {
 .grid-image .overlay-container .img-box:before {
     background-color: #b5d9a5;
     z-index: 3;
+}
+
+@media (max-width:768px){
+    .swiper-pagination-bullet {
+        width: 20px !important;
+        height: 10px !important;
+        text-align: center !important;
+        line-height: 18px !important;
+        font-size: 12px !important;
+        color: #ffffff !important;
+        opacity: 1 !important;
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
 }
