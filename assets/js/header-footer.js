@@ -4,23 +4,14 @@ document.getElementById("section-header").innerHTML = `<div
           <div class="navbar navbar-main navbar-middle">
             <div class="container">
               <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">
-                  <img
-                    class="logo-default scroll-hide"
-                    src="./assets/images/logos/logo.png"
-                    alt="logo" />
-                  <img
-                    class="logo-default scroll-show"
-                    src="./assets/images/logos/logo.png"
-                    alt="logo" />
-                  <img
-                    class="logo-retina"
-                    src="./assets/images/logos/logo.png"
-                    alt="logo" />
-                </a>
                 <button type="button" class="navbar-toggle">
                   <i class="fa fa-bars"></i>
                 </button>
+                <a class="navbar-brand" href="index.html">
+                <img class="logo-default scroll-hide" src="./assets/images/logos/logo.png" alt="logo" />
+                <img class="logo-default scroll-show" src="./assets/images/logos/logo.png" alt="logo" />
+                <img class="logo-retina" src="./assets/images/logos/logo.png" alt="logo" />
+              </a>
               </div>
               <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">

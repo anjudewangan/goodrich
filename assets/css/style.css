@@ -6559,8 +6559,7 @@ button.navbar-toggle {
         display: block;
     }
 
-    .navbar-main.navbar-middle ul.nav>li.logo-item,
-    .navbar-middle .scroll-hide {
+    .navbar-main.navbar-middle ul.nav>li.logo-item {
         display: none !important;
     }
 
