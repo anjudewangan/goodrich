@@ -2098,8 +2098,29 @@ function isScrollView(t) {
         slideShadows: true,
       },
       autoplay: {
-        delay: 11000,
-        disableOnInteraction: true,
+        delay: 10000,
+        disableOnInteraction: false,
+      },
+      on:{
+        slideChange: function (){
+          const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
+          setTimeout(()=> {
+            activeElement.play()
+          }, 800)
+          const sliders = document.querySelectorAll(".swiper-slide").forEach(element => {
+            if(!element.classList.contains("swiper-slide-active")){
+              console.log(element.childNodes[3])
+              element.childNodes[3].pause()
+              element.childNodes[3].currentTime = 0
+            }
+          })
+        },
+        init: function (){
+          const activeElement = document.getElementsByClassName("swiper-slide-active")[0].childNodes[3]
+           setTimeout(()=> {
+            activeElement.play()
+          }, 800)
+        }
       },
       pagination: {
         el: ".swiper-pagination",
