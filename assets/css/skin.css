@@ -850,7 +850,7 @@ body .picker__day {
 .section-item>.content,
 .section-two-blocks .content {
     padding-top: 80px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 h4,

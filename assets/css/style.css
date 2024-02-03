@@ -7689,7 +7689,7 @@ html.iex .img-box img {
 
 .video-area {
     text-align: center;
-    background-image: url(https://templates.envytheme.com/orgo/default/assets/img/video-bg.jpg);
+    background-image: url("../images/dashboard/potato.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
