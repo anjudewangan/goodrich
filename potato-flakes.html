@@ -14,14 +14,21 @@
     <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css" />
     <script src="./assets/js/script.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/components.css" />
     <link rel="stylesheet" href="./assets/css/content-box.css" />
-    <link rel="stylesheet" href="./assets/js/social.stream.css" />
+    <link rel="stylesheet" href="./assets/css/image-box.css" />
     <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/components.css" />
     <link rel="stylesheet" href="./assets/js/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="./assets/js/magnific-popup.css" />
     <link rel="stylesheet" href="./assets/js/php/contact-form.css" />
-    <link rel="stylesheet" href="./assets/css/skin.css" />
+    <link rel="stylesheet" href="./assets/js/social.stream.css" />
     <link rel="icon" href="./assets/images/logos/logo.png" />
+    <link rel="stylesheet" href="./assets/css/skin.css" />
+    <!-- Plugin Css -->
+    <link href="./assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/LineIcons.min.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Extra optional content header -->
 </head>
@@ -32,8 +39,7 @@
         <header class="fixed-top bg-transparent menu-transparent scroll-change wide-area" data-menu-anima="fade-in"
             id="section-header"></header>
         <div class="header-title white" data-parallax="scroll" data-position="top" data-natural-height="850"
-            data-natural-width="1920"
-            data-image-src="https://img.freepik.com/free-photo/top-view-french-fries-paper-with-copy-space_23-2148701537.jpg?w=826&t=st=1705747545~exp=1705748145~hmac=13f58889fe224172795dd595cf36983cf69452ac9a0527bec5a1250203d20e43">
+            data-natural-width="1920" data-image-src="./assets/images/bg-img/bg1.jpg">
             <div class="container">
                 <div class="title-base">
                     <hr class="anima" />
@@ -45,10 +51,28 @@
         </div>
         <div class="section-empty">
             <div class="container content">
-                <div class="row vertical-row">
-                    <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-8 col-center text-center">
+                        <div class="title-base">
+                            <hr />
+                            <h2>Potato Flakes</h2>
+                            <p>Goodrich Cereals</p>
+                        </div>
+                        <p>
+                            Standard potato flakes are among the most well-known and widely used potato products
+                            available. They’re bright white in color and, when reconstituted, have the dry, mealy
+                            texture and delicious flavor that consumers expect from freshly cooked mashed potatoes. They
+                            belong atop any list of all-purpose ingredients for use in foodservice, bakery and general
+                            food manufacturing.
+                        </p>
+                        <hr class="space m" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 text-center" data-anima="fade-right">
+                        <hr class="space m visible-sm" />
                         <div class="flexslider carousel outer-navs"
-                            data-options="minWidth:200,itemMargin:15,numItems:3,controlNav:true,directionNav:true">
+                            data-options="minWidth:200,itemMargin:15,numItems:2,controlNav:true,directionNav:true">
                             <ul class="slides">
                                 <li>
                                     <div class="adv-img-double-content">
@@ -56,15 +80,8 @@
                                             data-trigger="hover" data-anima-out="hide">
                                             <i class="fa fa-clock-o anima anima-fade-left"></i>
                                             <a class="img-box img-fade-bottom" href="#">
-                                                <img alt="" src="./assets/images/potato-flakes.png" />
+                                                <img alt="" src="./assets/images/products/potato2.jpg" />
                                             </a>
-                                        </div>
-                                        <div class="caption-bottom">
-                                            <h2>Bio salad</h2>
-                                            <p>
-                                                Tincidunt integer eu augue augue nunc elit dolore
-                                                luctus placerat scelerisque pertolo.
-                                            </p>
                                         </div>
                                     </div>
                                 </li>
@@ -74,15 +91,8 @@
                                             data-trigger="hover" data-anima-out="hide">
                                             <i class="fa fa-clock-o anima anima-fade-left"></i>
                                             <a class="img-box img-fade-bottom" href="#">
-                                                <img alt="" src="./assets/images/goodrich-potato-flakes-2.jpg" />
+                                                <img alt="" src="./assets/images/products/potato3.png" />
                                             </a>
-                                        </div>
-                                        <div class="caption-bottom">
-                                            <h2>Fresh vegetables</h2>
-                                            <p>
-                                                Tincidunt integer eu augue augue nunc elit dolore
-                                                luctus placerat pertolo martino.
-                                            </p>
                                         </div>
                                     </div>
                                 </li>
@@ -92,66 +102,200 @@
                                             data-trigger="hover" data-anima-out="hide">
                                             <i class="fa fa-clock-o anima anima-fade-left"></i>
                                             <a class="img-box img-fade-bottom" href="#">
-                                                <img alt="" src="./assets/images/goodrich-potato-flakes.jpg" />
+                                                <img alt="" src="./assets/images/products/potato1.jpg" />
                                             </a>
-                                        </div>
-                                        <div class="caption-bottom">
-                                            <h2>Italian bruschette</h2>
-                                            <p>
-                                                Tincidunt integer eu augue augue nunc elit dolore
-                                                luctus placerat scelerisque pie.
-                                            </p>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 text-center" data-anima="show-scale" data-time="1000">
-                        <h1 class="text-bold text-uppercase">Potato Flakes</h1>
+                    <div class="col-md-6 col-sm-12 text-center">
                         <p>
-                            Standard potato flakes are among the most well-known and widely used potato products
-                            available. They’re bright white in color and, when reconstituted, have the dry, mealy
-                            texture and delicious flavor that consumers expect from freshly cooked mashed potatoes. They
-                            belong atop any list of all-purpose ingredients for use in food service, bakery and general
-                            food manufacturing.
-                            <hr class="space s" />
                             Potato Flakes are the most important form of dehydrated potato products among others
                             including potato granules, pellets, powder, shredded and sliced potato. The main reason for
                             the widespread usage of potato flakes is their unique ability to reconstitute even with cold
                             water.
                             <hr class="space s" />
-                            The preparation of dehydrated potato flakes starts with cooking and mashing the potatoes. Subsequently, the mashed potatoes are pressed on to a drum drier by a roller to form sheets. The mashed potato sheets then undergo the process of quick-drying, which brings the humidity level to the desired value. The dried sheets are broken and ground to the required density to yield top-quality potato flakes.
+                            The preparation of dehydrated potato flakes starts with cooking and mashing the potatoes.
+                            Subsequently, the mashed potatoes are pressed on to a drum drier by a roller to form sheets.
+                            The mashed potato sheets then undergo the process of quick-drying, which brings the humidity
+                            level to the desired value. The dried sheets are broken and ground to the required density
+                            to yield top-quality potato flakes.
+                            <hr class="space s" />
+                            Goodrich Potato Flakes are different from others in the sense that only the finest potatoes
+                            are utilized for the production. Additionally, we use the best machinery and equipment to
+                            produce flakes that are on par with international standards. Goodrich Potato Flakes are apt
+                            for using anywhere, where one would require potato mash.
                         </p>
+                    </div>
+                    <hr class="space m" />
+                    <div class="col-md-12">
+                        <div class="tab-box" data-tab-anima="fade-right">
+                            <ul class="nav nav-tabs nav-justified">
+                                <li class="active"><a href="#">
+                                        Easy Storage, Easy Handling</a></li>
+                                <li><a href="#">Double Hold Time</a></li>
+                                <li><a href="#">100% Yield</a></li>
+                            </ul>
+                            <div class="panel active">
+                                One case of Goodrich's Potato Flakes weighs about 20 Kilograms and yields approximately
+                                the same number of servings as 100 Kilograms of raw potatoes.
+                            </div>
+                            <div class="panel">
+                                Potato mash prepared using flakes holds 2 times longer than mashed potatoes made from
+                                scratch. Additionally, you can refresh the instant mash with water while holding on a
+                                stream-table.
+                            </div>
+                            <div class="panel">
+                                Potato flakes help to eliminate yield loss of 15% - 20% that originates due to the
+                                peeling and storage of raw potatoes.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section-bg-image box-middle-container overlay-container"
-            style="background-image: url(./assets/images/foot-global3.jpg)">
-            <div class="bg-overlay transparent-dark"></div>
-            <div class="container content overlay-content box-middle white text-center">
+        <div class="video-area ptb-100">
+            <div class="container">
+                <div class="video-content">
+                    <h3>Watch Potato Flakes Video</h3>
+                    <a href="https://www.youtube.com/watch?v=G6oi23IWLcc" class="video-btn lightbox shadow-1"
+                        data-lightbox-anima="show-scale">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section-bg-color">
+            <div class="container content">
                 <div class="row">
-                    <div class="col-md-10">
-                        <div class="title-base" data-anima="fade-top">
-                            <h2 style="
-                    text-align: left;
-                    padding-top: 2rem;
-                    padding-bottom: 2rem;
-                  ">
-                                For bulk buying of Potato Flakes contact
-                            </h2>
+                    <div class="col-md-6 col-sm-12 text-center-sm">
+                        <div class="title-base text-left text-center-sm">
+                            <hr />
+                            <h2>Why Goodrich's Potato Flakes Are The Best</h2>
+                            <p>Why Goodrich's Potato Flakes Are The Best</p>
                         </div>
+                        <p class="text-justify">
+                            Goodrich's Potato Flakes offer yummy flavour with quick and easy preparation. We select,
+                            wash, peel, slice, mash and dry the potatoes using our proprietary process to extract
+                            top-grade potato flakes that deliver farm-fresh taste. All you have to do is add water to
+                            the potato flakes and watch the profits pile up with a cost that is less than the scratch,
+                            refrigerated or frozen potatoes. Goodrich's Potato Flakes will save your time, labour and
+                            costs altogether.
+                        </p>
+                        <hr class="space s" />
                     </div>
-                    <div class="col-md-2" style="padding-top: 2rem">
-                        <a href="get-in-touch.html">
-                            <button class="btn btn-sm circle-button btn-border" type="button">
-                                Contact Us
-                            </button></a>
+                    <div class="col-md-6 col-sm-12 text-center-sm" data-anima="fade-right">
+                        <hr class="space m visible-sm" />
+                        <img src="./assets/images/products/potato-flakes-mashed.png" alt="" />
                     </div>
                 </div>
             </div>
-            <hr class="space m" />
+        </div>
+        <div class="section-bg-image parallax-window parallax-side" data-sub-height="0" data-bleed="0"
+            data-natural-height="850" data-natural-width="1920" data-parallax="scroll"
+            data-image-src="./assets/images/dashboard/bg-5.jpg">
+            <div class="container content">
+                <div class="title-base">
+                    <hr />
+                    <h2>Potato Flakes Applications</h2>
+                    <p>Ways to use our potato flakes</p>
+                </div>
+                <hr class="space s" />
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="img-box adv-img adv-img-full-content">
+                            <div class="img-box">
+                                <img src="./assets/images/dashboard/1.jpg" alt="" />
+                            </div>
+                            <a href="#" class="caption-bg img-box">
+                                <div class="caption">
+                                    <div class="inner">
+                                        <h2>
+                                            For <br />
+                                            Thickening
+                                        </h2>
+                                        <p class="sub">
+                                            As a replacement for cornstarch and wheat flour,
+                                            dehydrated potato flakes add volume to soups, sauces,
+                                            etc. and are suitable to use as a thickening agent.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-box adv-img adv-img-full-content">
+                            <div class="img-box">
+                                <img src="./assets/images/dashboard/2.jpg" alt="" />
+                            </div>
+                            <a href="#" class="caption-bg img-box">
+                                <div class="caption">
+                                    <div class="inner">
+                                        <h2>
+                                            For <br />
+                                            Baking
+                                        </h2>
+                                        <p class="sub">
+                                            Because of their subtle earthy flavor, dehydrated potato
+                                            products are popular in baked goods. Use Goodrich's
+                                            dehydrated potato products for baked food.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-box adv-img adv-img-full-content">
+                            <div class="img-box">
+                                <img src="./assets/images/dashboard/3.jpg" alt="" />
+                            </div>
+                            <a href="#" class="caption-bg img-box">
+                                <div class="caption">
+                                    <div class="inner">
+                                        <h2>
+                                            For Formed <br />
+                                            Products
+                                        </h2>
+                                        <p class="sub">
+                                            Formed products like burgers, patties, etc. can be
+                                            conveniently made from potato flakes. At Goodrich, only
+                                            the finest potatoes are utilized for producing Potato
+                                            Flakes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="img-box adv-img adv-img-full-content">
+                            <div class="img-box">
+                                <img src="./assets/images/dashboard/4.jpg" alt="" />
+                            </div>
+                            <a href="#" class="caption-bg img-box">
+                                <div class="caption">
+                                    <div class="inner">
+                                        <h2>
+                                            For Packed <br />
+                                            Snacks
+                                        </h2>
+                                        <p class="sub">
+                                            Long shelf snacks like extruded products, fabricated
+                                            chips are made from potato flakes. Goodrich's potato
+                                            flakes are ideal for manufacturing a variety of packed
+                                            snacks as well.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
