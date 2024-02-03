@@ -5483,7 +5483,7 @@ SECTIONS
         padding-left: 40px !important;
         padding-right: 25px !important;
     }
-    
+
 }
 
 .section-two-blocks.blocks-right .vertical-row {
@@ -7417,16 +7417,20 @@ MOBILE - EXTRA SMALL SCREENS
     .swiper-container {
         height: 100% !important;
     }
-    .btn1{
-        margin-top: 1rem ;
+
+    .btn1 {
+        margin-top: 1rem;
     }
-    .btn2{
-        margin-top: 1rem ;
+
+    .btn2 {
+        margin-top: 1rem;
     }
-    .btn3{
-        margin-top: 1rem ;
+
+    .btn3 {
+        margin-top: 1rem;
     }
 }
+
 /* Get in touch button */
 
 
@@ -7447,6 +7451,9 @@ html.iex .img-box img {
     margin-top: 0 !important;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* ===================================
     Start Slider
@@ -7903,14 +7910,13 @@ footer hr {
 .grid-image .overlay-container .overlay .album-name {
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 100;
-    padding-bottom: 50px;
 }
 
 .grid-image .overlay-container .overlay .sub-text {
@@ -7930,7 +7936,15 @@ footer hr {
     z-index: 3;
 }
 
-@media (max-width:768px){
+.grid-image .overlay-container .overlay .album-padding {
+    padding-bottom: 55px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media (max-width:768px) {
     .swiper-pagination-bullet {
         width: 20px !important;
         height: 10px !important;
