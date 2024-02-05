@@ -102,7 +102,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
                 alt=""
                 class="footer-logo" />
               <hr class="space s" />
-              <p>bulk supplies of all dehydrated potato products</p>
+              <p>Bulk supplies of all dehydrated potato products</p>
               <div class="btn-group social-group btn-group-icons">
                 <a target="_blank" href="#" data-social="share-facebook"
                   ><i class="fa fa-facebook"></i

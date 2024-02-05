@@ -2624,7 +2624,7 @@ div .accordion-list>div:last-child {
 }
 
 .adv-img-full-content .caption-bg {
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0); */
     transition: all .6s;
     opacity: 1 !important;
 }
@@ -2662,7 +2662,7 @@ div .accordion-list>div:last-child {
 .advs-box-top-icon-img:not(.niche-box-post):after {
     content: '';
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
     position: absolute;
     height: 100%;
     top: 0;

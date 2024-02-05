@@ -173,13 +173,13 @@ HALF CONTENT & SIDE CONTENT & FULL CONTENT
 }
 
 .adv-img-full-content .caption-bg {
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 9;
+    /* z-index: 9; */
 }
 
 .adv-img .img-box img {
