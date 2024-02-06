@@ -51,13 +51,13 @@ document.getElementById("section-header").innerHTML = `<div
                           <a href="potato-flakes.html">Potato Flakes</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html">Potato Flours</a>
+                          <a href="dehydrated-potato-products.html#flour-sec">Potato Flours</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html">Potato Granules</a>
+                          <a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a>
                         </li>
                         <li>
-                          <a href="dehydrated-potato-products.html">Air-Dried Potato Pieces</a>
+                          <a href="dehydrated-potato-products.html#air-dried-sec">Air-Dried Potato Pieces</a>
                         </li>
                       </ul>
                     </div>
@@ -123,9 +123,9 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <hr class="space s" />
               <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
               <p><a href="potato-flakes.html">Potato Flakes</a></p>
-              <p><a href="dehydrated-potato-products.html">Potato Flour</a></p>
-              <p><a href="dehydrated-potato-products.html">Potato Granules</a></p>
-              <p><a href="dehydrated-potato-products.html">Potato Air-dried Pieces</a></p>
+              <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
+              <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
+              <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-dried Pieces</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>
