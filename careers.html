@@ -32,19 +32,27 @@
       <header
         class="fixed-top bg-transparent menu-transparent scroll-change wide-area"
         data-menu-anima="fade-in"
-        id="section-header"></header>
-      <div
-        class="header-title ken-burn-center white"
-        data-parallax="scroll"
-        data-position="top"
-        data-natural-height="850"
-        data-natural-width="1920"
-        data-image-src="./assets/images/career.jpg">
-        <div class="container">
-          <div class="title-base">
-            <hr class="anima" />
-            <p>Ready to Shape the Future of Potato Processing</p>
-            <h1>Careers</h1>
+        id="section-header"
+      ></header>
+      <div class="header-video">
+        <div class="videobox">
+          <video
+            autoplay
+            loop
+            muted
+            playsinline
+            poster="../../../images/video-1-poster.jpg"
+          >
+            <source src="./assets//video/career.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="overlaybox">
+          <div class="container">
+            <div class="title-base white">
+              <hr class="anima" />
+              <p>Ready to Shape the Future of Potato Processing</p>
+              <h1>Careers</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -418,7 +426,7 @@
                 </div>
                 <hr class="space xs" />
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                     <p>Phone</p>
                     <input
                       id="phone"
@@ -427,8 +435,18 @@
                       type="text"
                       class="form-control form-value" />
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                     <p>Email</p>
+                    <input
+                      id="email"
+                      name="email"
+                      placeholder=" "
+                      type="email"
+                      class="form-control form-value"
+                      required />
+                  </div>
+                  <div class="col-md-4">
+                    <p>Job Title</p>
                     <input
                       id="email"
                       name="email"
@@ -493,13 +511,14 @@
             </div>
             <div class="col-md-4">
               <hr class="space visible-sm" />
+              <p class="" style="font-style: italic;">Your career journey starts here.</p>
               <div class="title-base text-left">
                 <hr />
                 <h2>Send your details</h2>
               </div>
 
               <p>
-                Your career journey starts here. Apply now and be a part of a
+                 Apply now and be a part of a
                 team that transforms potatoes into endless possibilities!
               </p>
             </div>

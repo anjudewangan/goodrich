@@ -36,22 +36,28 @@
     class="fixed-top bg-transparent menu-transparent scroll-change wide-area"
     data-menu-anima="fade-in"
     id="section-header"></header>
-    <div
-    class="header-title ken-burn white "
-    data-parallax="scroll"
-    data-bleed="0"
-    data-position="top"
-    data-natural-height="850"
-    data-natural-width="1920"
-    data-image-src="./assets/images/bg-img/get-in touch.jpg">
-    <div class="container">
-      <div class="title-base">
-        <hr class="anima" />
-      <p>Connecting Beyond Boundaries</p>
-        <h1>Get In Touch</h1>
+    <div class="header-video">
+      <div class="videobox">
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          poster="../../../images/video-1-poster.jpg"
+        >
+          <source src="./assets//video/get-in-touch.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="overlaybox">
+        <div class="container">
+          <div class="title-base white">
+            <hr class="anima" />
+            <p>Connecting Beyond Boundaries</p>
+            <h1>Get In Touch</h1>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
     <div class="section-empty section-item">
       <div class="container content">
         <div class="row">
@@ -61,7 +67,7 @@
           </ol>
           <div class="section-bg-image parallax-window white" data-natural-height="850" data-natural-width="1920"
             data-parallax="scroll" data-image-src="">
-            <div class="container content">
+            <div class="container content" style="padding-top: 0px !important;">
               <div class="title-base">
                 <hr />
                 <h1 style="
@@ -76,30 +82,33 @@
               </div>
               <div class="row">
                 <div class="col-md-8 col-center">
-                  <p style="color: rgb(1, 50, 1) !important" class="text-center">
+                  <!-- <p style="color: rgb(1, 50, 1) !important" class="text-center">
                     We're all ears! reach out and let's cultivate a conversation
+                  </p> -->
+                  <p style="color: rgb(1, 50, 1) !important" class="text-center">
+                    Whether you have questions about our products, want to explore partnership opportunities, or need assistance with your potato-related endeavors, we're here to help. Reach out to us today to discover how we can support your needs and cultivate success together!
+
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <h3>Send a message</h3>
+            <h3>Send a Message</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel similique esse unde sunt eum, rem nemo
-              officiis quae, voluptatem voluptatum tempore qui assumenda? Molestiae fuga alias a dolorum sequi
-              necessitatibus.
+              We value your thoughts and inquiries. Please fill out the form below, and we'll get back to you as soon as possible.
+
             </p>
             <hr class="space s" />
             <form action="http://templates.framework-y.com/gourmet/scripts/php/contact-form.php"
               class="form-box form-ajax" method="post">
               <div class="row">
                 <div class="col-md-6">
-                  <p>Name</p>
+                  <p>Your Name</p>
                   <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
                 </div>
                 <div class="col-md-6">
-                  <p>Email</p>
+                  <p>Your Email</p>
                   <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
                 </div>
               </div>
@@ -375,11 +384,24 @@
               <hr class="space s" />
               <div class="row">
                 <div class="col-md-12">
-                  <p>Messagge</p>
+                  <p>Your Message</p>
                   <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
                   <hr class="space s" />
+                  
+                  <button
+                  class="circle-button btn-border btn btn-xs"
+                  onclick="document.getElementById('cvInput').click()">
+                  Upload
+                  <input
+                    type="file"
+                    id="cvInput"
+                    name="cvInput"
+                    style="display: none" />
+                </button>
+              
                   <button class="anima-button circle-button btn-xs btn" type="submit"><i
-                      class="im-mailbox-empty"></i>Send messagge</button>
+                      class="im-mailbox-empty"></i>Send Message</button>
+                      
                 </div>
               </div>
               <div class="success-box">
@@ -411,7 +433,7 @@
                     <i class="fa fa-twitter"></i>
                   </a>
                   <a class="btn btn-default">
-                    <i class="fa fa-google-plus"></i>
+                    <i class="fa fa-instagram"></i>
                   </a>
                   <a class="btn btn-default">
                     <i class="fa fa-linkedin"></i>
@@ -479,9 +501,8 @@
 
                       Dehydrated potatoes can be part of a nutritious, balanced diet. They are an excellent source of
                       vitamin C and a good source of potassium and vitamin B6. They contribute 8% of the recommended
-                      daily value of fiber. They're also naturally gluten free and always have been, Potatoes can help
-                      you with technical assistance in product and recipe development. Contact your local Potatoes
-                      representative for more information.
+                      daily value of fiber. They're also naturally gluten free and always have been,
+                      For technical assistance in product and recipe development involving potatoes, please contact us today for more information.
 
                     </div>
                   </div>
@@ -490,7 +511,7 @@
                   <a>How long can I store Dehydrated Potatoes?</a>
                   <div class="panel">
                     <div class="inner">
-                      Dehydrated potato products have a maximum shelf life of 18 to 24 months. To optimize that shelf
+                      Dehydrated potato products have a maximum shelf life of 12 months. To optimize that shelf
                       life, keep the product in a cool-below 27°C-dry area with minimal exposure to humidity.
 
                     </div>
@@ -548,11 +569,11 @@
           <div class="text-center">
             <div class="row">
               <div class="col-md-12">
-                <a href="mailto:youremail@example.com">
-                  <button class="btn btn-sm btn1" type="button"><i class=""></i>Email Us</button>
-                </a>
+                <a href="mailto: info@goodrichcereals.com">
+                <button class="btn btn-sm btn1" type="button"><i class=""></i>Email Us</button>
                 <button class="btn btn-sm btn2" type="button"><i class=""></i>B2B Partnership Inquiries</button>
                 <button class="btn btn-sm btn3" type="button"><i class=""></i>Bulk Buying</button>
+              </a>
                 <hr class="space s" />
                 <hr class="space s" />
               </div>
