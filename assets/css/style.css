@@ -1864,9 +1864,9 @@ footer h6 {
     margin-top: 0;
 }
 
-/* footer .container {
-    padding: 35px 15px;
-} */
+ footer .container {
+    padding: 15px 15px;
+}
 
 .footer-bg .copy-row .copy-text {
     letter-spacing: 1px;
@@ -7856,7 +7856,6 @@ html {
     background-color: #0a6938;
     color: #fff;
 }
-
 .process-step:before {
     content: '';
     height: 2px;
@@ -7866,6 +7865,32 @@ html {
     top: 10%;
     left: 75%;
 }
+
+/* Archishman 3 circle before line remove */
+.process-step3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    margin-bottom: 2.5rem;
+}
+.process-step-circle3 {
+    border: 2px solid #d4d4d4;
+    font-size: 2.2em;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-shadow:hover .process-step-circle3 {
+    background-color: #0a6938;
+    color: #fff;
+}
+/* end Archishman */
 
 .process-step:last-child::before {
     display: none;
