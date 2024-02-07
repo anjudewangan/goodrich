@@ -4075,7 +4075,7 @@ IMAGE BOX
 ==============================
 */
 .img-box {
-    display: inline-block;
+    display: block;
     overflow: hidden;
     max-width: 100%;
     outline: none !important;
