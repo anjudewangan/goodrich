@@ -104,16 +104,16 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <hr class="space s" />
               <p>Bulk supplies of all dehydrated potato products</p>
               <div class="btn-group social-group btn-group-icons">
-                <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL" data-social="share-facebook"
+                <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL"
                   ><i class="fa fa-facebook"></i
                 ></a>
-                <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118" data-social="share-youtube"
+                <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118" 
                   ><i class="fa fa-youtube"></i
                 ></a>
-                <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2" data-social="share-instgram"
+                <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2"
                   ><i class="fa fa-instagram"></i
                 ></a>
-                <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/" data-social="share-linkedin"
+                <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/" 
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </div>
