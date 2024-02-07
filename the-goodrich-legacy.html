@@ -78,7 +78,12 @@
             <hr class="space s" />
           </div>
           <div class="col-md-6">
-            <img src="./assets/images/products/product-img.png" alt="" />
+            <div class="about-img">
+              <img src="./assets/images/goodrich-legacy/about.png" alt="" />
+              <div class="year-shape">
+                <img src="./assets/images/goodrich-legacy/dots.png" alt="Image">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -415,7 +420,7 @@
             </p>
           </div>
           <div class="col-md-4">
-            <img style="height: 25rem !important;" src="./assets/images/vision.jpg" alt="" />
+            <img style="height: 25rem !important;" src="./assets/images/goodrich-legacy/vision.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -424,7 +429,7 @@
       <div class="container content">
         <div class="row">
           <div class="col-md-4">
-            <img src="./assets/images/mission-gd.jpg" alt="" />
+            <img src="./assets/images/goodrich-legacy/mission.jpg" alt="" />
           </div>
           <div class="col-md-8">
             <div class="title-base text-right">
@@ -464,11 +469,25 @@
         </div>
       </div>
     </div>
-    <div class="section-empty text-center">
-      <div class="container content">
-        <h4>Explore the legacy, strength, and innovation that define Goodrich Group</h4>
-        <p>A conglomerate that continues to
-          shape industries and lead with a vision for a better</p>
+    <div class="section-bg-image box-middle-container overlay-container row-19"
+      style="background-image: url(./assets/images/bg-img/Doodles.png);">
+      <div class="bg-overlay"></div>
+      <div class="container content overlay-content box-middle green text-center">
+        <div class="title-base" data-anima="fade-top">
+          <hr />
+          <h2>Explore the legacy, strength, and innovation</h2>
+          <p>Goodrich Group</p>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-center">
+            <p data-anima="fade-bottom">
+              A conglomerate that continues to
+              shape industries and lead with a vision for a better
+            </p>
+          </div>
+        </div>
+        <a href="./get-in-touch.html" class="circle-button btn btn-sm anima-button"><i class="im-bread"></i>Explore
+          Us</a>
       </div>
     </div>
   </div>
@@ -578,44 +597,6 @@
     });
   })(jQuery);
 </script>
-
-<!-- <script>
-    const counters = document.querySelectorAll(".counter1");
-
-    counters.forEach((counter1) => {
-      let initial_count = 0;
-      const final_count = counter1.dataset.count;
-      // console.log(final_count);
-
-      let counting = setInterval(updateCounting, 1);
-
-      function updateCounting() {
-        if (initial_count <= 1000) {
-          initial_count += 5;
-
-          counter1.innerText = initial_count;
-        }
-
-        if (initial_count >= 1000) {
-          initial_count += 100;
-          counter1.innerText = (initial_count / 1000).toFixed(1) + "K+";
-        }
-
-        if (initial_count >= 10000) {
-          initial_count += 5000;
-        }
-
-        if (initial_count >= 1000000) {
-          initial_count += 500000;
-          counter1.innerText = (initial_count / 1000000).toFixed(1) + "M+";
-        }
-
-        if (initial_count >= final_count) {
-          clearInterval(counting);
-        }
-      }
-    });
-  </script> -->
 <script>
   const counters = document.querySelectorAll(".counter1");
 
