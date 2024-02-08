@@ -141,17 +141,17 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <hr />
               <p>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="info@goodrichcereals.com">info@goodrichcereals.com</a>
+                <a target="_blank" href="mailto:info@goodrichcereals.com">info@goodrichcereals.com</a>
               </p>
               <hr />
               <p>
                 <i class="fa fa-mobile" aria-hidden="true"></i>
-                <a href=""> +91-9817700710</a>
+                 <a href="tel: +91-9817700710"> +91-9817700710</a>
               </p>
               <hr />
               <p>
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                <a href=""> +91 9817700710</a>
+                 <a href="tel: +91 9817700710"> +91 9817700710</a>
               </p>
             </div>
             <div class="col-md-3 footer-right text-left">
@@ -160,7 +160,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><i class="fa fa-map-marker" aria-hidden="true"></i> LONDON</p>
               <p>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="hb.intl@goodrichcereals.in"
+                <a target="_blank" href="mailto:hb.intl@goodrichcereals.in"
                   >hb.intl@goodrichcereals.in</a
                 >
               </p>
@@ -168,7 +168,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><i class="fa fa-map-marker" aria-hidden="true"></i> VIETNAM</p>
               <p>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="veitnam@goodrichcereals.in"
+                <a target="_blank" href="mailto:veitnam@goodrichcereals.in"
                   >veitnam@goodrichcereals.in</a
                 >
               </p>
@@ -176,7 +176,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><i class="fa fa-map-marker" aria-hidden="true"></i> LATAM</p>
               <p>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="latam@goodrichcereals.in">latam@goodrichcereals.in</a>
+                <a target="_blank" href="mailto:latam@goodrichcereals.in">latam@goodrichcereals.in</a>
               </p>
               <hr />
               <p>
