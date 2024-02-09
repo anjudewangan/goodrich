@@ -8215,6 +8215,21 @@ footer hr {
         height: auto;
         width: auto;
     }
+
+    .image-center-align {
+        display: block !important;
+    }
+
+    .about-img .year-shape img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+
+    .vission-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -8346,4 +8361,8 @@ footer hr {
     color: white;
     font-size: 14px;
     padding: 5px 10px;
+}
+
+.vission-img img {
+    height: 25rem;
 }
