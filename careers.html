@@ -35,7 +35,7 @@
       id="section-header"></header>
     <div class="header-video">
       <div class="videobox">
-        <video autoplay loop muted playsinline poster="../../../images/video-1-poster.jpg">
+        <video autoplay loop muted playsinline>
           <source src="./assets//video/career.mp4" type="video/mp4" />
         </video>
       </div>
@@ -412,26 +412,15 @@
               <div class="row">
                 <div class="col-md-12">
                   <hr class="space s" />
-                  <div class="col-md-3">
-                    <button class="circle-button btn-border btn btn-xs"
-                      onclick="document.getElementById('cvInput').click()">
-                      Upload CV
-                      <input type="file" id="cvInput" name="cvInput" style="display: none" />
-                    </button>
-                  </div>
+                  <button class="circle-button btn-border btn btn-xs"
+                    onclick="document.getElementById('cvInput').click()">
+                    Attach File
+                    <input type="file" id="cvInput" name="cvInput" style="display: none" />
+                  </button>
+                  <button class="anima-button circle-button btn-xs btn" type="submit"><i
+                      class="im-envelope-2"></i>Submit</button>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <hr class="space s" />
-                  <div class="col-md-3">
-                    <button class="anima-button circle-button btn-xs btn" type="submit">
-                      <i class="im-envelope-2"></i>Submit
-                    </button>
-                  </div>
-                </div>
-              </div>
-
               <div class="success-box">
                 <div class="alert alert-success">
                   Congratulations. Your inquiry has been sent successfully
@@ -451,14 +440,12 @@
               <hr />
               <h2>Send your details</h2>
             </div>
-
             <p>
               Apply now and be a part of a
               team that transforms potatoes into endless possibilities!
             </p>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -470,12 +457,8 @@
   <script src="./assets/js/php/contact-form.js"></script>
   <script src="./assets/js/parallax.min.js"></script>
   <script src="./assets/js/jquery.progress-counter.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script src="./assets/js/jquery.tab-accordion.js"></script>
   <script src="./assets/js/smooth.scroll.min.js"></script>
-  <!-- <script
-      src="https://themekit.dev/tools/sidebar/sidebar.js"
-      data-setting="gourmet"></script> -->
   <script src="./assets/js/header-footer.js"></script>
 </body>
 

@@ -63,7 +63,7 @@ document.getElementById("section-header").innerHTML = `<div
                     </div>
                 </li>
                   <li class="dropdown">
-                    <a href="latest-blogs.html" role="button"
+                    <a href="blogs.html" role="button"
                       >Blogs <span class="caret"></span
                     ></a>
                   </li>
