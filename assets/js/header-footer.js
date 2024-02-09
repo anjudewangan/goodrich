@@ -125,7 +125,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><a href="potato-flakes.html">Potato Flakes</a></p>
               <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
               <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
-              <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-dried Pieces</a></p>
+              <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
             </div>
             <div class="col-md-3 footer-right text-left">
               <h5 class="text-bold">CONTACT DETAILS</h5>

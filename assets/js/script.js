@@ -2098,7 +2098,7 @@ function isScrollView(t) {
         slideShadows: true,
       },
       autoplay: {
-        delay: 10000,
+        delay: 7000,
         disableOnInteraction: false,
       },
       on:{
