@@ -2012,7 +2012,7 @@ function isScrollView(t) {
         );
         $("#anima-layer-a").pan({
           fps: 30,
-          speed: 0.7,
+          speed: 0.9,
           dir: "left",
           depth: 30,
         });

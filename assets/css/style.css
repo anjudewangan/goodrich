@@ -8369,10 +8369,12 @@ footer hr {
     height: 25rem;
 }
 
-.heading-green{
+.heading-green {
     color: #0a6938;
 }
 
-.tab-box i{
-    color: #0a6938;
+.playfair-font {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 600;
 }
