@@ -4880,7 +4880,7 @@ header div.title-base p,
 div.title-icon p {
     font-size: 15px;
     margin-top: 20px;
-    color: #6B6B6B;
+    color: #0a6938 !important;
 }
 
 .title-base.text-left hr {
@@ -8365,4 +8365,8 @@ footer hr {
 
 .vission-img img {
     height: 25rem;
+}
+
+.heading-green{
+    color: #0a6938;
 }

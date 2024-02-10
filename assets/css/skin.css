@@ -21,7 +21,7 @@ p,
 .title-base p,
 .subheader-bootstrap .sub {
     font-family: 'Libre Baskerville', serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
     font-weight: 300;
     color: #737373;
@@ -139,7 +139,7 @@ li.panel-item .fa-li,
 .side-menu>li.active>a>i,
 .navbar-default .navbar-nav>.active>a,
 .adv-img-full-content p.sub {
-    color: #484848;
+    color: #0a6938;
 }
 
 .shop-menu .cart-buttons a:hover,
@@ -186,7 +186,7 @@ header .btn-search:hover,
 .white .pagination>.active>a,
 .white.advs-box-blog .tag-row span:after,
 .white.niche-box-post .tag-row span:after {
-    color: #484848 !important;
+    color: #074625 !important;
 }
 
 .btn-border:after,
@@ -209,7 +209,7 @@ ul.side-menu li.active:before,
 .btn,
 .circle-button .navbar-inner .nav:not(.ms-rounded) li a:before,
 .timeline>li:hover>.timeline-badge {
-    background-color: #484848;
+    background-color: #0a6938;
 }
 
 [class*="col-md-"].boxed,
@@ -246,8 +246,8 @@ ul.side-menu li.active:before,
 .nav-pills>li.active>a,
 .advs-box.boxed,
 [class*="col-md-"].boxed {
-    background-color: #2e2e2e !important;
-    border-color: #2e2e2e !important;
+    background-color: #074625 !important;
+    border-color: #074625 !important;
 }
 
 div.adv-img-side-content .btn:hover,
