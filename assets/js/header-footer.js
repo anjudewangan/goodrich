@@ -15,7 +15,7 @@ document.getElementById("section-header").innerHTML = `<div
               </div>
               <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                  <li class="dropdown active">
+                  <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#"
                       >Our Story <span class="caret"></span
                     ></a>
