@@ -139,7 +139,7 @@ li.panel-item .fa-li,
 .side-menu>li.active>a>i,
 .navbar-default .navbar-nav>.active>a,
 .adv-img-full-content p.sub {
-    color: #0a6938;
+    color: #B3CD27;
 }
 
 .shop-menu .cart-buttons a:hover,
@@ -186,7 +186,7 @@ header .btn-search:hover,
 .white .pagination>.active>a,
 .white.advs-box-blog .tag-row span:after,
 .white.niche-box-post .tag-row span:after {
-    color: #074625 !important;
+    color: #484848 !important;
 }
 
 .btn-border:after,
@@ -1102,7 +1102,7 @@ footer .social-group {
 .header-video,
 .header-slider,
 .header-slider .flexslider .slides {
-    height: 500px;
+    height: 90vh;
 }
 
 .header-slider h1,
@@ -1121,7 +1121,7 @@ footer .social-group {
 .header-title p,
 .header-slider p,
 .header-animation:not(.section-bg-animation) p {
-    font-size: 14px !important;
+    font-size: 15px !important;
     letter-spacing: .5px;
     -webkit-animation: 3s ease 0s normal forwards 1 fadein;
     animation: 3s ease 0s normal forwards 1 fadein;
@@ -1229,6 +1229,7 @@ i.onlycover {
 
 .icon-box-cell p.text-s {
     padding-top: 3px;
+    color: #0a6938;
 }
 
 .text-l {
@@ -1665,6 +1666,7 @@ div .countdown>div:last-child:after {
     font-weight: 500;
     position: relative;
     margin-right: 25px;
+    color: #0a6938;
 }
 
 .btn-text:after {
