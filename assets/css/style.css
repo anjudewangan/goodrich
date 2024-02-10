@@ -733,7 +733,7 @@ header>.navbar {
 }
 
 .nav.inner>li>a {
-    color: #444;
+    color: #0a6938;
     cursor: pointer;
 }
 
@@ -8376,3 +8376,11 @@ footer hr {
 .tab-box i{
     color: #0a6938;
 }
+/* thank you text style */
+.protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
