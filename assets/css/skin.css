@@ -137,16 +137,16 @@ li.panel-item .fa-li,
 .icon-list .list-item i,
 .accordion-list .list-group-item>a:hover,
 .side-menu>li.active>a>i,
-.navbar-default .navbar-nav>.active>a,
-.adv-img-full-content p.sub {
-    color: #B3CD27;
+.navbar-default .navbar-nav>.active>a
+/* .adv-img-full-content p.sub { */{
+    color: #0a6938;
 }
 
 .shop-menu .cart-buttons a:hover,
-.mi-menu ul li>a:hover,
+/* .mi-menu ul li>a:hover,
 .mi-menu ul li.active>a,
 .mi-menu ul li>a:hover i,
-.mi-menu ul li.active>a i,
+.mi-menu ul li.active>a i, */
 .pricing-table .pricing-price,
 .list-group-item.pricing-price:hover,
 .nav-tabs>li:hover>a,
@@ -482,7 +482,7 @@ header.dark-design.scroll-css .navbar-default .navbar-nav li>a {
 .mi-menu ul li>a:hover,
 .mi-menu ul li>a i,
 .pagination>li.page a {
-    color: #a5a5a5;
+    color: #0a6938;
 }
 
 footer .tag-row span {
@@ -1326,7 +1326,7 @@ i.onlycover {
 }
 
 .btn-group-icons:not(.social-colors) i {
-    color: #484848;
+    color: #484848 !important;
 }
 
 .btn-group-icons a:hover i {

@@ -1004,6 +1004,7 @@ LISTS
 
 .grid-box .grid-item .advs-box, .maso-box .maso-item .advs-box {
     margin-bottom: 0;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.36);
 }
 
 

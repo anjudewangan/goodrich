@@ -8372,10 +8372,20 @@ footer hr {
 .heading-green {
     color: #0a6938;
 }
+/* Archish */
+.heading-green-shadow{
+    text-shadow: 0px 1px rgb(255 255 255), 0 0 1em rgb(13, 44, 9), 0 0 0.01em rgb(15, 56, 17)
+}
 
 .playfair-font {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+    font-weight: 600;
+}
+/* Archish */
+.playfair-font1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
     font-weight: 600;
 }
 /* thank you text style */
