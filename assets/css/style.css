@@ -2979,7 +2979,7 @@ header.bg-title {
 }
 
 .parallax-mirror.ken-burn-center img {
-    animation: ken-burn-in 10s;
+    animation: ken-burn-in 5s;
     transform: scale(1.2);
 }
 
@@ -5351,8 +5351,8 @@ SECTIONS
 .section-slider.box-middle-container .container,
 .section-bg-animation.box-middle-container .container,
 .section-empty.box-middle-container .container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 [class*="section-"]>div>.row:first-child>div>*:first-child,
@@ -5484,6 +5484,7 @@ SECTIONS
         padding-left: 40px !important;
         padding-right: 25px !important;
     }
+
 
 }
 
@@ -6355,6 +6356,10 @@ button.navbar-toggle {
 
     .section-two-blocks>.row>div:first-child>div {
         padding: 0;
+    }
+
+    .swiper-container {
+        height: 100% !important;
     }
 
     /*
@@ -8393,6 +8398,5 @@ footer hr {
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-
-  
+    font-style: normal;
+}

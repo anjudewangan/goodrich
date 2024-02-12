@@ -135,6 +135,9 @@ HALF CONTENT & SIDE CONTENT & FULL CONTENT
 
 .adv-img-half-content {
     height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .adv-img-half-content i.main-icon,
