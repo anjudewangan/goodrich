@@ -151,7 +151,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <hr />
               <p>
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                 <a href="tel: +91 9817700710"> +91 9817700710</a>
+                 <a href="tel: +91-9817700710"> +91-9817700710</a>
               </p>
             </div>
             <div class="col-md-3 footer-right text-left">

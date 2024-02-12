@@ -563,6 +563,7 @@ body .big-padding {
 
 .fa-ul .fa-li {
     font-weight: 600;
+    color: #C5D958;
 }
 
 .overflow-visible {
@@ -3465,7 +3466,7 @@ MOBILE - RESPONSIVE
     }
 
     .advs-box-side .img-box img {
-        width: auto;
+        width: 100%;
         margin: auto;
     }
 
