@@ -207,7 +207,7 @@ document.getElementById("section-footer").innerHTML = `<div class="content">
               <p><a href="#">Privacy Policy</a></p>
             </div>
             <div class="col-md-3 col-sm-6">
-              <p><a href="#">Site Map</a></p>
+              <p><a href="site-map.html">Site Map</a></p>
             </div>
           </div>
         </div>

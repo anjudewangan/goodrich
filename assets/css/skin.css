@@ -2509,7 +2509,7 @@ a.thumbnail {
     border-top: none;
 }
 
-.accordion-list .list-group-item:after {
+.accordion-list .list-group-item a:after {
     content: '+';
     position: absolute;
     transition: all .3s;
@@ -2525,9 +2525,9 @@ a.thumbnail {
     line-height: 18px;
 }
 
-.accordion-list .list-group-item.active-panel:after {
+/* .accordion-list .list-group-item.active-panel:after {
     content: '-';
-}
+} */
 
 .accordion-list>div:first-child a {
     border-top: none;
@@ -2545,7 +2545,6 @@ div .accordion-list>div:last-child {
     transition: all .6s;
 }
 
-.accordion-list .list-group-item>a.active,
 .accordion-list .list-group-item>a.active:hover,
 .accordion-list .list-group-item>a:hover {
     border-color: rgba(255, 255, 255, 0);

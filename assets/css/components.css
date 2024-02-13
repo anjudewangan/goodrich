@@ -36,7 +36,8 @@ COLLAPSE & ACCORDION
             color: #337ab7;
         }
 
-        .accordion-list .list-group-item > a.active, .accordion-list .list-group-item > a.active:hover {
+        /* .accordion-list .list-group-item > a.active,  */
+        .accordion-list .list-group-item > a.active:hover {
             border: 1px solid #929292;
             margin: -1px -1px 0 -1px;
             font-weight: 600;

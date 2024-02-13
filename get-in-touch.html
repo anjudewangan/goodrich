@@ -317,20 +317,20 @@
               </div>
               <div class="col-md-6">
                 <p>Phone</p>
-                <input id="phone" name="phone" placeholder=" " type="text" class="form-control form-value" />
+                <input id="phone" name="phone" placeholder=" " type="number" class="form-control form-value" />
               </div>
               <hr class="space s" />
               <div class="row">
                 <div class="col-md-12">
                   <p>Company Name</p>
-                  <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value">
                 </div>
               </div>
               <hr class="space s" />
               <div class="row">
                 <div class="col-md-12">
                   <p>Your Message</p>
-                  <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value">
                   <hr class="space s" />
                   <button class="circle-button btn-border btn btn-xs"
                     onclick="document.getElementById('cvInput').click()">
@@ -342,7 +342,7 @@
                 </div>
               </div>
               <div class="success-box">
-                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                <div class="alert alert-success" id="thankYouBox">Congratulations. Your message has been sent successfully</div>
               </div>
               <div class="error-box">
                 <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
@@ -424,12 +424,12 @@
             <div class="col-md-12">
               <div class="list-group accordion-list" data-time="1000" data-type="accordion">
                 <div class="list-group-item">
-                  <a> Are Dehydrated Potato Products 100% Potatoes? </a>
+                  <a> Are Dehydrated Potato Products 100% Potatoes?
                   <div class="panel">
                     <div class="inner">
                       Yes dehydrated potato products are made from 100% whole, high-quality potatoes.
                     </div>
-                  </div>
+                  </div> </a>
                 </div>
                 <div class="list-group-item">
                   <a>Can Dehydrated Potatoes be part of Nutritious Formulations?</a>
@@ -528,5 +528,10 @@
     <script src="./assets/js/smooth.scroll.min.js"></script>
     <script src="./assets/js/header-footer.js"></script>
 </body>
-
+<script>
+   function showThankYou() {
+        document.getElementById("thankYouBox").style.display = "block";
+        return false; // Prevent form submission for this example
+    }
+</script>
 </html>
