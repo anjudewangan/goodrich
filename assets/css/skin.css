@@ -138,7 +138,9 @@ li.panel-item .fa-li,
 .accordion-list .list-group-item>a:hover,
 .side-menu>li.active>a>i,
 .navbar-default .navbar-nav>.active>a
-/* .adv-img-full-content p.sub { */{
+
+/* .adv-img-full-content p.sub { */
+    {
     color: #0a6938;
 }
 
@@ -3708,7 +3710,7 @@ MOBILE - RESPONSIVE
     }
 
     body .big-padding {
-        padding: 25px !important;
+        padding: 133px !important;
     }
 
     .side-menu-lateral .mi-menu nav {
@@ -3814,18 +3816,26 @@ MOBILE - RESPONSIVE
         text-align: center;
         font-size: 22px;
     }
+
     .container.content,
-.section-empty>.content,
-.section-bg-image>.content,
-.section-bg-video>.content,
-.section-bg-animation>.content,
-.section-slider>.content,
-.section-bg-color>.content,
-.section-item>.content,
-.section-two-blocks .content {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+    .section-empty>.content,
+    .section-bg-image>.content,
+    .section-bg-video>.content,
+    .section-bg-animation>.content,
+    .section-slider>.content,
+    .section-bg-color>.content,
+    .section-item>.content,
+    .section-two-blocks .content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .block-quote.quote-2 {
+        padding: 5px 20px;
+    }
+    body .big-padding {
+        padding: 70px 0px !important;
+    }
 
 }
 
