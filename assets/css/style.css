@@ -6362,6 +6362,12 @@ button.navbar-toggle {
         height: 100% !important;
     }
 
+    .blog-img {
+        width: 100%;
+        height: 100% !important;
+    }
+
+
     /*
   ==============================
   MOBILE - MENU
@@ -8245,6 +8251,19 @@ footer hr {
         justify-content: center;
         align-items: center;
     }
+
+    .image-responsive img {
+        width: 100%;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .panel-box .panel .col-md-9 {
+        margin-left: 40px;
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -8407,6 +8426,11 @@ footer hr {
     font-weight: 400;
     font-style: normal;
     font-style: normal;
+}
+
+.blog-img {
+    width: 360px;
+    height: 222px;
 }
 
 /* Site Map */
