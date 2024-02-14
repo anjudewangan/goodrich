@@ -49,7 +49,9 @@
         </div>
       </div>
     </div>
-    <div class="section-empty">
+    <div class="section-bg-image parallax-window parallax-side" id="air-dried-sec" data-sub-height="0"
+    data-bleed="0" data-natural-height="850" data-natural-width="1920" data-parallax="scroll"
+    data-image-src="./assets/images/bg-img/career.png">
       <div class="container content">
         <div class="row">
           <ol class="breadcrumb" style="font-style: italic;">
@@ -313,7 +315,7 @@
               <div class="row">
                 <div class="col-md-4">
                   <p>Phone</p>
-                  <input id="phone" name="phone" placeholder=" " type="text" class="form-control form-value" />
+                  <input id="phone" name="phone" placeholder=" " type="text" class="form-control form-value" required />
                 </div>
                 <div class="col-md-4">
                   <p>Email</p>
@@ -323,14 +325,14 @@
                 <div class="col-md-4">
                   <p>Job Title</p>
                   <input id="text" name="text" placeholder=" " type="text" class="form-control form-value"
-                    />
+                  required />
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
                   <hr class="space xs" />
                   <p>About you</p>
-                  <textarea id="messagge" name="messagge" class="form-control form-value"></textarea>
+                  <textarea id="messagge" name="messagge" class="form-control form-value"required></textarea>
                 </div>
               </div>
               <div class="row">
@@ -339,7 +341,7 @@
                   <button class="circle-button btn-border btn btn-xs"
                     onclick="document.getElementById('cvInput').click()">
                     Attach File
-                    <input type="file" id="cvInput" name="cvInput" style="display: none" />
+                    <input type="file" id="cvInput" name="cvInput" style="display: none"required />
                   </button>
                   <button class="anima-button circle-button btn-xs btn" type="submit"><i
                       class="im-envelope-2"></i>Submit</button>

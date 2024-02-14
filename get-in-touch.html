@@ -25,8 +25,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
-</head>
 
+</head>
 <body>
   <div id="preloader"></div>
   <div class="footer-parallax-container">
@@ -317,27 +317,27 @@
               </div>
               <div class="col-md-6">
                 <p>Phone</p>
-                <input id="phone" name="phone" placeholder=" " type="number" class="form-control form-value" />
+                <input id="phone" name="phone" placeholder=" " type="number" class="form-control form-value" required/>
               </div>
               <hr class="space s" />
               <div class="row">
                 <div class="col-md-12">
                   <p>Company Name</p>
-                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value">
+                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value"required>
                 </div>
               </div>
               <hr class="space s" />
               <div class="row">
                 <div class="col-md-12">
                   <p>Your Message</p>
-                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value">
+                  <input id="name" name="name" placeholder="" type="text" class="form-control form-value"required>
                   <hr class="space s" />
                   <button class="circle-button btn-border btn btn-xs"
                     onclick="document.getElementById('cvInput').click()">
                     Attach File
                     <input type="file" id="cvInput" name="cvInput" style="display: none" />
                   </button>
-                  <button class="anima-button circle-button btn-xs btn" type="submit" onclick="displayMessage()"><i
+                  <button class="anima-button circle-button btn-xs btn" type="submit"  data-toggle="modal" data-target="#my-modal" onclick="displayMessage()"><i
                       class="im-mailbox-empty"></i>Send Message</button>
                 </div>
               </div>
@@ -424,12 +424,12 @@
             <div class="col-md-12">
               <div class="list-group accordion-list" data-time="1000" data-type="accordion">
                 <div class="list-group-item">
-                  <a> Are Dehydrated Potato Products 100% Potatoes?
+                  <a> Are Dehydrated Potato Products 100% Potatoes? </a>
                   <div class="panel">
                     <div class="inner">
                       Yes dehydrated potato products are made from 100% whole, high-quality potatoes.
                     </div>
-                  </div> </a>
+                  </div>
                 </div>
                 <div class="list-group-item">
                   <a>Can Dehydrated Potatoes be part of Nutritious Formulations?</a>
@@ -538,14 +538,17 @@
         if (form.checkValidity()) {
             var alertBox = document.createElement('div');
             alertBox.className = 'alert';
-            alertBox.innerHTML = '<p class="alert-message">THANK YOU FOR REACHING OUT TO US!</p>';
+            alertBox.id = "success-modal"
+            alertBox.innerHTML = `
+      <div class="custom-modal"> THANK YOU FOR REACHING OUT TO US! <button class="close-modal" id="close-modal" > X </button> </div>
+`;
             document.body.appendChild(alertBox);
-            setTimeout(()=>{
-              alertBox.style.display = "none"
-            }, 5000)
-        } else {
-            alert("Please fill in the required field.");
+            document.getElementById("close-modal").addEventListener("click", ()=>{
+              document.getElementById("myForm").reset()
+              document.getElementById('success-modal').remove()
+            })
         }
     }
+
 </script>
 </html>
