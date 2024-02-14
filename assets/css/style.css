@@ -7340,7 +7340,7 @@ MOBILE - EXTRA SMALL SCREENS
     }
 
     .grid-table td {
-        width: 50%;
+        width: 25%;
         float: left;
     }
 
@@ -7450,6 +7450,35 @@ MOBILE - EXTRA SMALL SCREENS
         font-size: 14px !important;
         height: 30px !important;
         width: 30px !important;
+    }
+
+    .video-content h3 {
+        font-size: 20px !important;
+    }
+
+    .process-step-circle,
+    .process-step-circle3 {
+        width: 60px !important;
+        height: 60px !important;
+        font-size: 20px !important;
+    }
+
+    .video-content .video-btn i {
+        font-size: 30px !important;
+        top: -13px !important;
+    }
+
+    .video-content .video-btn {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .quote-author {
+        font-size: 10px;
+    }
+
+    .text-m {
+        font-size: 14px !important;
     }
 }
 
@@ -8438,13 +8467,14 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-  }
-  
-  .sitemap {
+}
+
+.sitemap {
     width: auto;
     margin: 50px auto;
-  }
-  .sitemap a {
+}
+
+.sitemap a {
     display: inline-block;
     text-transform: uppercase;
     margin: 0 5px;
@@ -8458,9 +8488,9 @@ nav ul {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     font-family: 'Montserrat', sans-serif;
 
-  }
-  
-  .first > li > a {
+}
+
+.first>li>a {
     background: #d1aa0f;
     color: #fff;
     width: 100px;
@@ -8469,8 +8499,9 @@ nav ul {
     display: block;
     margin: auto;
     font-weight: 500;
-  }
-  .first > li > a:after {
+}
+
+.first>li>a:after {
     content: "";
     position: absolute;
     left: 50%;
@@ -8478,18 +8509,20 @@ nav ul {
     height: 10px;
     background: #9e9f9e;
     top: 100%;
-  }
-  
-  .second {
+}
+
+.second {
     padding-top: 20px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-  }
-  .second > li {
+}
+
+.second>li {
     display: inline-block;
-    vertical-align: top;    
-  }
-  .second a {
+    vertical-align: top;
+}
+
+.second a {
     background: #284623;
     font-size: 13px;
     font-weight: 500;
@@ -8500,9 +8533,9 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .second a:before {
+}
+
+.second a:before {
     content: "";
     position: absolute;
     border: 1px solid #9e9f9e;
@@ -8512,20 +8545,23 @@ nav ul {
     top: -10px;
     left: -76px;
     width: 18.5rem;
-  }
-  .second li:first-child a:before {
+}
+
+.second li:first-child a:before {
     border-top: none;
-  }
-  .second a:hover{
-      background: #326140;
-  }
-  
-  .third {
+}
+
+.second a:hover {
+    background: #326140;
+}
+
+.third {
     margin-left: 16px;
     padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
-  }
-  .third a {
+}
+
+.third a {
     background: #71b32fe0;
     width: 100%;
     height: 40px;
@@ -8533,8 +8569,9 @@ nav ul {
     margin-bottom: 15px;
     z-index: 5;
     font-size: 11px;
-  }
-  .third a:before {
+}
+
+.third a:before {
     border: 1px solid #9e9f9e;
     border-right: none;
     border-top: none;
@@ -8542,19 +8579,23 @@ nav ul {
     top: -35px;
     left: -8px;
     width: 7px;
-  }
-  .third a:hover {
-      background: #6c8820;
-  }
-  @media (max-width: 767px) {
+}
+
+.third a:hover {
+    background: #6c8820;
+}
+
+@media (max-width: 767px) {
     .sitemap {
-      justify-content: space-between;
+        justify-content: space-between;
     }
-    .second > li {
+
+    .second>li {
         display: inline-block;
         vertical-align: bottom;
         padding-bottom: 3rem;
     }
+
     .second a:before {
         content: "";
         position: absolute;
@@ -8566,10 +8607,10 @@ nav ul {
         left: -414px;
         width: 50rem;
     }
-  }
+}
 
   /* Get In Touch PopUp */
-  .alert {
+.alert {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -8602,4 +8643,8 @@ nav ul {
     top: 6%;
     border: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+.order-last {
+    float: right;
 }

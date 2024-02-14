@@ -570,3 +570,10 @@ SIDE
 .adv-circle.adv-circle-center-2 .caption h2 {
     text-align: right;
 }
+
+@media (max-width: 767px) {
+    .adv-img h2, .adv-circle h2, .caption-bottom h2 {
+        font-size: 16px;
+    }
+
+}

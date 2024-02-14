@@ -3825,16 +3825,105 @@ MOBILE - RESPONSIVE
     .section-bg-color>.content,
     .section-item>.content,
     .section-two-blocks .content {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
     }
 
     body .big-padding {
-        padding: 70px 0px !important;
+        padding: 70px 10px !important;
     }
 
     .blog-container .big-padding {
         padding: 25px !important;
+    }
+
+    .title-base h2,
+    .title-base h1,
+    .title-icon h2,
+    .title-icon h1,
+    .title-base.title-small h2,
+    .adv-img-full-content h2,
+    h3,
+    h4,
+    .h4,
+    .advs-box h3 {
+        font-size: 15px;
+    }
+
+    body,
+    .adv-img p,
+    .caption-bottom p,
+    .adv-circle .caption p,
+    .advs-box p,
+    p,
+    .title-base p,
+    .subheader-bootstrap .sub {
+        font-size: 10px;
+    }
+
+    div>p:last-child {
+        margin-bottom: 0px;
+    }
+
+    .title-base {
+        margin-bottom: 0px;
+    }
+
+    .advs-box.boxed-inverse .advs-box-content,
+    .advs-box.boxed .advs-box-content {
+        padding: 20px;
+    }
+
+    .header-title p,
+    .header-video p,
+    .header-title p,
+    .header-slider p,
+    .header-animation:not(.section-bg-animation) p {
+        font-size: 10px !important;
+    }
+
+    .header-title h1,
+    .header-video h1,
+    .header-base h1,
+    .header-slider h1,
+    .header-animation:not(.section-bg-animation) h1 {
+        font-size: 15px !important;
+    }
+
+    .btn-sm {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+
+    header .nav>li>a {
+        font-size: 10px;
+    }
+
+    .block-quote.quote-1,
+    .block-quote.quote-2 {
+        font-size: 12px;
+    }
+
+    .block-quote.quote-1 {
+        padding: 5px 0 5px 45px;
+    }
+
+    body .block-quote.quote-1:before,
+    body .block-quote.quote-2:after,
+    body .block-quote.quote-2:before {
+        font-size: 60px;
+    }
+
+    .porfolio-bar a {
+        font-size: 10px;
+    }
+
+    .block-quote.quote-2 {
+        padding: 5px 35px;
+    }
+    h5 {
+        margin-bottom: 0;
+        font-size: 14px;
     }
 }
 
