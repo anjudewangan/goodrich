@@ -3829,13 +3829,13 @@ MOBILE - RESPONSIVE
         padding-bottom: 30px;
     }
 
-    .block-quote.quote-2 {
-        padding: 5px 20px;
-    }
     body .big-padding {
         padding: 70px 0px !important;
     }
 
+    .blog-container .big-padding {
+        padding: 25px !important;
+    }
 }
 
 .swiper-slide h2,
