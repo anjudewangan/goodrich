@@ -84,11 +84,13 @@ div.caption-bottom p {
 .caption-side p {
     margin-top: 10px;
 }
-.products-row{
+
+.products-row {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .adv-img-down-text .caption-bottom p {
     margin-bottom: 5px;
 }
@@ -572,8 +574,14 @@ SIDE
 }
 
 @media (max-width: 767px) {
-    .adv-img h2, .adv-circle h2, .caption-bottom h2 {
+
+    .adv-img h2,
+    .adv-circle h2,
+    .caption-bottom h2 {
         font-size: 16px;
     }
 
+    .products-row {
+        display: block;
+    }
 }
