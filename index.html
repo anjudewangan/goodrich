@@ -630,9 +630,9 @@
         <div class="tab-box inverse" data-tab-anima="fade-top">
           <div class="panel active">
             <div class="row">
-              <div class="col-lg-3 col-xs-6">
+              <div class="col-lg-3 col-xs-6" onclick="flakesClick()">
                 <div class="adv-img-double-content">
-                  <a class="img-box img-fade-bottom" href="index.html#flakes-index">
+                  <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
                       data-anima-out="hide">
                       <img alt="" src="./assets/images/products/flake.png" />
@@ -653,9 +653,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-xs-6">
+              <div class="col-lg-3 col-xs-6" onclick="flourClick()">
                 <div class="adv-img-double-content">
-                  <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#flour-sec">
+                  <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
                       data-anima-out="hide">
                       <img alt="" src="./assets/images/products/flour.png" />
@@ -674,11 +674,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-3 col-xs-6">
+              <div class="col-lg-3 col-xs-6" onclick="granulesClick()">
                 <div class="adv-img-double-content">
-                  <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#granule-sec">
+                  <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
                       data-anima-out="hide">
                       <img alt="" src="./assets/images/products/granule.png" />
@@ -700,9 +698,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-xs-6">
+              <div class="col-lg-3 col-xs-6" onclick="airdriedClick()">
                 <div class="adv-img-double-content">
-                  <a class="img-box img-fade-bottom" href="dehydrated-potato-products.html#air-dried-sec">
+                  <a class="img-box img-fade-bottom">
                     <div class="img-box adv-img adv-img-half-content" data-anima="fade-bottom" data-trigger="hover"
                       data-anima-out="hide">
                       <img alt="" src="./assets/images/products/cube.png" />
@@ -904,10 +902,10 @@
           </div>
           <ul class="nav nav-tabs nav-center">
             <li class="active"><a href="#">All Potato Products</a></li>
-            <li><a href="#">Flakes</a></li>
-            <li><a href="#">Flour</a></li>
-            <li><a href="#">Granules</a></li>
-            <li><a href="#">Air Dried</a></li>
+            <li><a href="#" id="flakesClick" >Flakes</a></li>
+            <li><a href="#" id="flourClick" >Flour</a></li>
+            <li><a href="#" id="granulesClick">Granules</a></li>
+            <li><a href="#" id="airdriedClick">Air Dried</a></li>
           </ul>
         </div>
       </div>
@@ -1358,7 +1356,7 @@
       </div>
       <div class="row copy-row">
         <div class="col-lg-1"></div>
-        <div class="col-lg-5 col-xs-12">
+        <div class="col-lg-5 col-xs-12  order-sm-12">
           © 2024 -
           <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
         </div>
@@ -1442,6 +1440,18 @@
       }
     }
   });
+ function flakesClick(){
+  document.getElementById("flakesClick").click()
+ }
+ function flourClick(){
+  document.getElementById("flourClick").click()
+ }
+ function granulesClick(){
+  document.getElementById("granulesClick").click()
+ }
+ function airdriedClick(){
+  document.getElementById("airdriedClick").click()
+ }
 </script>
 
 </html>

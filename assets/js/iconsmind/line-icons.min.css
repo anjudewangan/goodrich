@@ -171,6 +171,17 @@ Social icons and compatibility styles
     font-size: 20px;
 }
 
+@media (max-width: 767px) {
+    .fa-li {
+        position: absolute;
+        left: -2.08em;
+        width: 2.14285714em;
+        top: -5px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
 .maso-order i {
     font-weight: 600;
 }

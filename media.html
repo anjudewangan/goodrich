@@ -399,7 +399,7 @@
                 <div class="clear"></div>
               </div>
             </div>
-            <hr class="space" />
+            <!-- <hr class="space" />
             <h3 id="videos" class="text-black">Videos</h3>
             <div class="navbar navbar-inner">
               <div class="navbar-toggle">
@@ -437,7 +437,45 @@
                     title="YouTube video player" allowfullscreen></iframe>
                 </div>
               </div>
-            </div>
+            </div> -->
+            <hr class="space" />
+           <h3 id="videos" class="text-black">Videos</h3>
+                <div class="navbar navbar-inner">
+                  <div class="navbar-toggle">
+                    <i class="fa fa-bars"></i><span>MENU</span><i class="fa fa-angle-down"></i>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav2 over inner maso-filters scroll-spy-menu">
+                      <li class="active"><a data-filter="all">All</a></li>
+                      <li>
+                        <a data-filter="cat4">Goodrich Cereals</a>
+                      </li>
+                      <li><a data-filter="cat5">Dehydrated Potato Product</a></li>
+                    </ul>
+                  </div>
+                  <div id="video-section">
+                    <div class="row">
+                      <div class="col-md-6 cat4 all video-sec" data-sort="1">
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/jBeElzn7AF4?si=B8C_3gMXvKMxCCkg"
+                          title="YouTube video player" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-md-6 cat4 all video-sec">
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/G6oi23IWLcc?si=Gvg3W6voXGm1PG9Z"
+                          title="YouTube video player" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-md-6 cat5 all video-sec">
+                        <iframe width="100%" height="250"
+                          src="https://new.goodrichcereals.com/img/videos/goodrich-manufacturing.mp4"
+                          title="YouTube video player" allowfullscreen></iframe>
+                      </div>
+                      <div class="col-md-6 cat5 all video-sec">
+                        <iframe width="100%" height="250"
+                          src="https://new.goodrichcereals.com/img/videos/goodrich-potato-cubes.mp4"
+                          title="YouTube video player" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             <hr class="space" />
           </div>
         </div>
@@ -457,5 +495,43 @@
   <script src="./assets/js/header-footer.js"></script>
   <!-- <script src="https://themekit.dev/tools/sidebar/sidebar.js" data-setting="gourmet"></script> -->
 </body>
+<script>
+ document.addEventListener("DOMContentLoaded", function() {
+    const tabLinks = document.querySelectorAll(".nav.navbar-nav2 a");
+    const videoSection = document.getElementById("video-section");
+    const tabContents = videoSection.querySelectorAll(".video-sec");
 
+    tabLinks.forEach(function(tab) {
+      tab.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        // Remove 'active' class from all tab links
+        tabLinks.forEach(function(link) {
+          link.classList.remove("active");
+        });
+
+        // Add 'active' class to the clicked tab link
+        tab.classList.add("active");
+
+        const target = this.getAttribute("data-filter");
+        
+        // Hide all tab contents in video section
+        tabContents.forEach(function(content) {
+          content.style.display = "none";
+        });
+
+        // Display the tab content corresponding to the clicked link in video section
+        if (target === "all") {
+          tabContents.forEach(function(content) {
+            content.style.display = "block";
+          });
+        } else {
+          videoSection.querySelectorAll("." + target).forEach(function(content) {
+            content.style.display = "block";
+          });
+        }
+      });
+    });
+  });
+</script>
 </html>
