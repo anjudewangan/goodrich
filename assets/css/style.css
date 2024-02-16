@@ -7305,6 +7305,32 @@ MOBILE - COMPONENTS
     .height-full-sm {
         height: 100% !important;
     }
+
+    .potato-img-responsive {
+        position: absolute;
+        top: 8%;
+        right: 0;
+    }
+
+    .order-reverse {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }
+
+    .order-nowrap-reverse {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: nowrap;
+        flex-flow: nowrap;
+    }
 }
 
 /*
@@ -8297,6 +8323,49 @@ footer hr {
 
     .panel-box .panel .col-md-9 {
         margin-left: 40px;
+    }
+
+    .air-dried-responsive {
+        position: absolute;
+        top: 36%;
+        left: 0;
+    }
+
+    .order-nowrap-reverse {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }
+
+    .text-justify-sm {
+        text-align: justify;
+    }
+
+    .granules-responsive {
+        height: 63px;
+    }
+
+    .flour-responsive {
+        height: 150px;
+    }
+
+    .middle-text-container .middle .text {
+        font-size: 7px !important;
+        padding: 0 !important;
+    }
+
+    .grid-image .overlay-container .overlay .album-name {
+        top: 34%;
+        font-size: 15px !important;
+    }
+
+    .medium-circle-img img {
+        width: 155px !important;
+        height: 155px !important;
     }
 }
 

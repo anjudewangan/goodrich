@@ -177,7 +177,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
     </div>
   </div>
 </div>
-<div class="row copy-row">
+<div class="row copy-row order-reverse">
   <div class="col-lg-1"></div>
   <div class="col-lg-5 col-xs-12">
     © 2024 -
