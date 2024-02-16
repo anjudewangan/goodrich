@@ -59,7 +59,7 @@ i.icon,
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(images/assets/loader.gif);
+    background-image: url(../video/loader.gif);
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
