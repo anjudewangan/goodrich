@@ -178,26 +178,23 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
   </div>
 </div>
 <div class="row copy-row order-reverse">
-  <div class="col-lg-1"></div>
-  <div class="col-lg-5 col-xs-12">
-    © 2024 -
-    <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
-  </div>
-  <div class="col-lg-6 col-xs-12">
-    <div class="row">
-      <div class="col-lg-2 col-xs-6">
-        <p><a href="careers.html">Careers</a></p>
-      </div>
-      <div class="col-lg-4 col-xs-6">
-        <p><a href="#">Terms & Condition</a></p>
-      </div>
-      <div class="col-lg-3 col-xs-6">
-        <p><a href="#">Privacy Policy</a></p>
-      </div>
-      <div class="col-lg-3 col-xs-6">
-        <p><a href="site-map.html">Site Map</a></p>
-      </div>
+<div class="col-lg-1"></div>
+<div class="col-lg-5 col-xs-12">
+  © 2024 -
+  <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
+</div>
+<div class="col-lg-6 col-xs-12">
+  <div class="row">
+    <div class="col-lg-4 col-xs-4">
+      <p><a href="careers.html">Careers</a></p>
+    </div>
+    <div class="col-lg-4 col-xs-4">
+      <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+    <div class="col-lg-4 col-xs-4">
+      <p><a href="site-map.html">Site Map</a></p>
     </div>
   </div>
+</div>
 </div>
 </div>`;
