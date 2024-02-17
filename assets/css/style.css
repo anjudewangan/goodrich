@@ -8367,6 +8367,10 @@ footer hr {
         width: 155px !important;
         height: 155px !important;
     }
+
+    .hidden-lg {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 639px) {
@@ -8732,4 +8736,8 @@ nav ul {
 .medium-circle-img img {
     width: 250px;
     height: 250px;
+}
+
+.hidden-lg {
+    display: none;
 }
