@@ -8285,6 +8285,9 @@ footer hr {
     .ag-timeline-card_arrow {
         margin-top: 12px;
     }
+    .hidden-lg {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -8367,10 +8370,10 @@ footer hr {
         width: 155px !important;
         height: 155px !important;
     }
-
+/* 
     .hidden-lg {
         display: block !important;
-    }
+    } */
 }
 
 @media only screen and (max-width: 639px) {
