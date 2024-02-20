@@ -66,6 +66,12 @@ i.icon,
     z-index: 999999999999;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .scroll-top-mobile {
     position: fixed;
     background: #fff;
@@ -8285,6 +8291,7 @@ footer hr {
     .ag-timeline-card_arrow {
         margin-top: 12px;
     }
+
     .hidden-lg {
         display: block !important;
     }
@@ -8370,7 +8377,8 @@ footer hr {
         width: 155px !important;
         height: 155px !important;
     }
-/* 
+
+    /* 
     .hidden-lg {
         display: block !important;
     } */

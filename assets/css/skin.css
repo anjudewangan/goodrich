@@ -424,7 +424,7 @@ header.bg-transparent .navbar-default .navbar-nav>li.active>a,
 .section-bg-image .boxed-inverse,
 .white .btn-border:hover:after,
 .img-box.thumbnail {
-    background-color: #FFF;
+    background-color: transparent;
 }
 
 .white .flex-control-paging li a.flex-active,
