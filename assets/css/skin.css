@@ -422,7 +422,10 @@ header.bg-transparent .navbar-default .navbar-nav>li.active>a,
 .advs-box.boxed-inverse,
 .section-two-blocks .form-control,
 .section-bg-image .boxed-inverse,
-.white .btn-border:hover:after,
+.white .btn-border:hover:after{
+    background-color: white;
+}
+
 .img-box.thumbnail {
     background-color: transparent;
 }
