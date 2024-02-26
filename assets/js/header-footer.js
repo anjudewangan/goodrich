@@ -132,8 +132,15 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
       </p>
       <hr />
       <p>
+        <i class="fa fa-map-marker" aria-hidden="true"></i> PLANT ADDRESS
+      </p>
+      <p>
+        01, Meerut Road, Nagla, Karnal, Haryana, 132001
+      </p>
+      <hr />
+      <p>
         <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a target="_blank" href="mailto:info@goodrichcereals.com">info@goodrichcereals.com</a>
+        <a target="_blank" href="mailto:info@goodrichworld.com">info@goodrichworld.com</a>
       </p>
       <hr />
       <p>
@@ -143,7 +150,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
       <hr />
       <p>
         <i class="fa fa-whatsapp" aria-hidden="true"></i>
-        <a href="tel: +91-9817700710"> +91-9817700710</a>
+        <a href="tel: +91-8059800945"> +91-8059800945</a>
       </p>
     </div>
     <div class="col-md-3 footer-right text-left">

@@ -458,7 +458,7 @@ a[data-anima] {
 
 
 div>p:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 /* 
@@ -7993,8 +7993,12 @@ html {
 }
 
 footer hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer h5 {
+    margin-bottom: 0 !important;
 }
 
 /* Dehydrated Potato Products */
