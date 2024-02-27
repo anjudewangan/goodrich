@@ -1871,7 +1871,7 @@ footer h6 {
 }
 
 footer .container {
-    padding: 15px 15px;
+    padding: 15px 50px;
 }
 
 .footer-bg .copy-row .copy-text {
@@ -1919,7 +1919,7 @@ footer .social-group i {
 }
 
 footer .social-group a {
-    margin: 0 5px;
+    margin: 0;
     display: inline-block;
 }
 
@@ -8342,7 +8342,7 @@ footer h5 {
     .air-dried-responsive {
         position: absolute;
         top: 36%;
-        left: 0;
+        right: 0;
     }
 
     .order-nowrap-reverse {
@@ -8521,8 +8521,12 @@ footer h5 {
     border-radius: 30px;
 }
 
-.vission-img img {
+.vission-img .visionImg2 {
     height: 25rem;
+}
+
+.vission-img  .visionImg1 {
+    height: 30rem;
 }
 
 .heading-green {

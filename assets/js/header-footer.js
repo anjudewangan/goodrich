@@ -145,7 +145,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
       <hr />
       <p>
         <i class="fa fa-mobile" aria-hidden="true"></i>
-        <a href="tel: +91-9817700710"> +91-9817700710</a>
+        <a href="tel: +91-8059800945"> +91-8059800945</a>
       </p>
       <hr />
       <p>
