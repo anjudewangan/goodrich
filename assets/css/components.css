@@ -655,9 +655,9 @@ MOBILE - PHONE - Extra small devices
         border-bottom: none !important;
     }
 
-    .tab-box.inverse .nav-tabs.nav-center li:last-child a {
+    /* .tab-box.inverse .nav-tabs.nav-center li:last-child a {
         border-bottom: 1px solid #DDD !important;
-    }
+    } */
 
     .nav-justified-v li > a {
         line-height: inherit !important;

@@ -773,6 +773,7 @@ MOBILE - PHONE - Extra small devices
 
     .flexslider .slides>li {
         height: auto;
+        padding-right: 15px;
     }
 
     .nav-middle-mobile.flexslider a.flex-prev,

@@ -79,9 +79,8 @@ input::-webkit-inner-spin-button {
     height: 50px;
     z-index: 995;
     right: 10px;
-    bottom: 10px;
+    bottom: 60px;
     text-align: center;
-    bottom: 10px;
     cursor: pointer;
     padding: 15px 0;
     visibility: hidden;
@@ -6799,6 +6798,9 @@ button.navbar-toggle {
         max-width: 80%;
         height: auto !important;
         padding-left: 15px;
+        position: absolute;
+        top: 0;
+        left: 38%;
     }
 
     .navbar-toggle {
@@ -7098,7 +7100,7 @@ MOBILE - COMPONENTS
     }
 
     hr.space.m {
-        height: 20px;
+        height: 0;
     }
 
     hr.e {
@@ -7314,7 +7316,7 @@ MOBILE - COMPONENTS
 
     .potato-img-responsive {
         position: absolute;
-        top: 8%;
+        top: 6%;
         right: 0;
     }
 
@@ -7368,7 +7370,6 @@ MOBILE - EXTRA SMALL SCREENS
     .grid-table td {
         width: 100%;
         float: none;
-        border: none !important;
     }
 
     .grid-table td {
@@ -7451,6 +7452,11 @@ MOBILE - EXTRA SMALL SCREENS
         margin: 0 0 10px 0;
         padding-left: 0;
         display: block;
+    }
+
+    .block-quote,
+    div>p.block-quote:last-child {
+        margin: 0;
     }
 
     /* Responsive */
@@ -8326,6 +8332,20 @@ footer h5 {
         align-items: center;
     }
 
+    .small-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .padding-none .row .col-lg-3,
+    .padding-none .col-padding {
+        padding: 0 !important;
+    }
+
+    .padding-bottom-col .col-lg-3 {
+        padding: 15px;
+    }
+
     .image-responsive img {
         width: 100%;
     }
@@ -8341,7 +8361,7 @@ footer h5 {
 
     .air-dried-responsive {
         position: absolute;
-        top: 36%;
+        top: 39%;
         right: 0;
     }
 
@@ -8380,6 +8400,10 @@ footer h5 {
     .medium-circle-img img {
         width: 155px !important;
         height: 155px !important;
+    }
+
+    .grid-table td {
+        padding: 0;
     }
 
     /* 
@@ -8525,7 +8549,7 @@ footer h5 {
     height: 25rem;
 }
 
-.vission-img  .visionImg1 {
+.vission-img .visionImg1 {
     height: 30rem;
 }
 

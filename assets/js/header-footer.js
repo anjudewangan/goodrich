@@ -64,8 +64,7 @@ document.getElementById("section-header").innerHTML = `<div
                 </li>
                   <li class="dropdown">
                     <a href="blogs.html" role="button"
-                      >Blogs <span class="caret"></span
-                    ></a>
+                      >Blogs</a>
                   </li>
                   <li class="logo-item">
                     <a href="index.html">
@@ -74,18 +73,15 @@ document.getElementById("section-header").innerHTML = `<div
                   </li>
                   <li class="dropdown">
                     <a href="media.html" role="button"
-                      >Media <span class="caret"></span
-                    ></a>
+                      >Media</a>
                   </li>
                   <li class="dropdown mega-dropdown mega-tabs">
                     <a href="manufacturing-excellence.html"
-                      >Manufacturing Excellence <span class="caret"></span
-                    ></a>
+                      >Manufacturing Excellence</a>
                   </li>
                   <li class="dropdown mega-dropdown mega-tabs">
                     <a href="get-in-touch.html"
-                      >Get in Touch <span class="caret"></span
-                    ></a>
+                      >Get in Touch</a>
                   </li>
                 </ul>
               </div>
@@ -96,30 +92,74 @@ document.getElementById("section-header").innerHTML = `<div
 document.getElementById("section-footer").innerHTML = `    <div class="content">
 <div class="container">
   <div class="row">
-    <div class="col-md-3 footer-left">
-      <img src="./assets/images/logos/logo.png" alt="" class="footer-logo" />
+    <div class="col-lg-3 col-xs-12 footer-left">
+      <img src="./assets/images/logos/logo.png" alt="goodrich logo" class="footer-logo" />
       <hr class="space s" />
       <p>Bulk supplies of all dehydrated potato products</p>
-      <div class="btn-group social-group btn-group-icons">
-        <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL"><i
-            class="fa fa-facebook"></i></a>
-        <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118"><i class="fa fa-youtube"></i></a>
-        <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2"><i
-            class="fa fa-instagram"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/"><i
-            class="fa fa-linkedin"></i></a>
+      <div class="row vission-img">
+        <div class="col-lg-6 col-xs-4">
+          <img src="./assets/images/goodrich-cereals/cereals-story-potato.png" width="100px"
+            alt="footer potato image">
+        </div>
+        <div class="col-lg-6 col-xs-4">
+          <div class="row">
+            <div class="col-lg-6 col-xs-6">
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="https://www.facebook.com/GoodrichCerealss?mibextid=ZbWKwL"><i
+                    class="fa fa-facebook"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="https://www.youtube.com/@goodrichcereals4118"><i
+                    class="fa fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="https://www.instagram.com/goodrichcereals/?igsh=YThmZnp0ZTNoYnB2"><i
+                    class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="https://www.linkedin.com/company/goodrich-cereals/"><i
+                    class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 footer-right text-left">
+    <div class="col-lg-3 col-xs-12 footer-right text-left padding-none">
       <h5 class="text-bold">USEFUL LINKS</h5>
       <hr class="space s" />
-      <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
-      <p><a href="potato-flakes.html">Potato Flakes</a></p>
-      <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
-      <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
-      <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
+      <div class="col-lg-12 col-xs-6 col-padding">
+        <p><a href="dehydrated-potato-products.html">Dehydrated Potato Products</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6">
+        <p><a href="potato-flakes.html">Potato Flakes</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6 col-padding">
+        <p><a href="dehydrated-potato-products.html#flour-sec">Potato Flour</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6">
+        <p><a href="dehydrated-potato-products.html#granule-sec">Potato Granules</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6 col-padding">
+        <p><a href="dehydrated-potato-products.html#air-dried-sec">Potato Air-Dried Pieces</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6">
+        <p><a href="blogs.html">Blogs</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6 col-padding">
+        <p><a href="careers.html">Careers</a></p>
+      </div>
+      <div class="col-lg-12 col-xs-6">
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
     </div>
-    <div class="col-md-3 footer-right text-left">
+    <div class="col-lg-3 col-xs-6 footer-right text-left">
       <h5 class="text-bold">CONTACT DETAILS</h5>
       <hr class="space s" />
       <p>
@@ -153,7 +193,7 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
         <a href="tel: +91-8059800945"> +91-8059800945</a>
       </p>
     </div>
-    <div class="col-md-3 footer-right text-left">
+    <div class="col-lg-3 col-xs-6 footer-right text-left">
       <h5 class="text-bold">OUR OFFICES</h5>
       <hr class="space s" />
       <p><i class="fa fa-map-marker" aria-hidden="true"></i> LONDON</p>
@@ -184,24 +224,14 @@ document.getElementById("section-footer").innerHTML = `    <div class="content">
     </div>
   </div>
 </div>
-<div class="row copy-row order-reverse">
-<div class="col-lg-1"></div>
-<div class="col-lg-5 col-xs-12">
-  © 2024 -
-  <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
-</div>
-<div class="col-lg-6 col-xs-12">
-  <div class="row">
-    <div class="col-lg-4 col-xs-4">
-      <p><a href="careers.html">Careers</a></p>
-    </div>
-    <div class="col-lg-4 col-xs-4">
-      <p><a href="privacy-policy.html">Privacy Policy</a></p>
-    </div>
-    <div class="col-lg-4 col-xs-4">
-      <p><a href="site-map.html">Site Map</a></p>
-    </div>
+<div class="row copy-row">
+  <div class="col-lg-1"></div>
+  <div class="col-lg-5 col-xs-6">
+    © 2024 -
+    <a href="https://www.patiodigital.com/" target="_blank">Patio Digital Pvt. Ltd.</a>
   </div>
-</div>
+  <div class="col-lg-5 col-xs-6 text-right">
+    <p><a href="site-map.html">Site Map</a></p>
+  </div>
 </div>
 </div>`;
